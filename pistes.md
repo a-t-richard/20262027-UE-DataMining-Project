@@ -57,28 +57,45 @@ Ce fichier suit le fil de l'enquête : ce qu'on a observé dans chaque domaine, 
 **Réponses aux questions précédentes**
 - Après chaque visite nocturne dans une grotte, Horizon envoie des échantillons biologiques gardés au froid à Meridian, exactement 6 heures plus tard (18 fois sur 18). Les plaintes citent ces envois.
 - Meridian envoie régulièrement des « livraisons de programme clinique » à Asterion. Chaque livraison est suivie, 8 jours plus tard, d'un MRP-42 donné à l'un des 8 dirigeants (26 fois sur 26).
+- Asterion retire du matériel de son stock « pour consommation », sans aucune référence de livraison. Ces 30 retraits ont tous lieu le même jour qu'un MRP-42 donné à un dirigeant (30 fois sur 30) : ce matériel sert à préparer MRP-42.
 - Une livraison citée dans le mémo CHAMELEO est déclarée sous une fausse catégorie.
 
 **Ce qu'on en tire** : une chaîne qui se répète.
-grotte (Horizon, la nuit) → échantillons biologiques vers Meridian → livraisons vers Asterion → MRP-42 pour les dirigeants
+grotte (Horizon, la nuit) → échantillons biologiques vers Meridian → livraisons vers Asterion → retrait de stock et MRP-42 pour les dirigeants, le même jour
 
-## 5. Où en est-on ?
+**Réponse à l'hypothèse sur Elias Voss** : il ne reçoit pas MRP-42. Il dirige la société qui le fournit, et une note le relie plutôt aux patients atypiques (Corin Hallen).
+
+## 5. Croisements : ce qui se cache derrière
+
+**Réponses aux questions ouvertes**
+- Les chauves-souris baissent après presque chaque visite d'Horizon (13 fois sur 14, il en reste en moyenne 44 %), et pas après les visites des autres organismes. Ce n'est donc pas seulement KNT-KES.
+- Parmi les 240 patients, seuls 5 ont un quasi-homonyme dans public records (nom presque identique, même année de naissance, même région), et ce sont tous des patients atypiques. Les dirigeants, eux, apparaissent sous leur vrai nom. Les patients atypiques semblent donc vivre sous des noms légèrement modifiés.
+- Deux chaînes de sociétés se succèdent depuis le XIXe siècle, et leurs dirigeants se remplacent tous les 40 à 50 ans :
+  - Vann → Warden → Vosmere → Voss (Meridian) ;
+  - Varlan → Bell → Marot → Vale.
+
+  Des documents parlent de « continuité d'identité » : une même personne qui changerait de nom.
+- Les documents de Mara Venn, une ancienne employée de la logistique :
+  - des chauves-souris *Eonycteris spelaea* vivantes sont collectées, puis « consommées » ;
+  - la population de patients atypiques est désignée par un terme non humain, « Chamaeleonidian », comme le code CHAMELEO ;
+  - certains envois partent vers une destination non terrestre.
+
+## 6. Où en est-on ?
 
 **Ce qui est établi par les données**
-- Horizon entre de nuit dans les grottes, et envoie juste après des échantillons biologiques à Meridian.
-- Meridian approvisionne Asterion, et chaque livraison précède un MRP-42 donné à un dirigeant.
-- Ces dirigeants paraissent beaucoup plus jeunes et restent très longtemps en poste.
+- Horizon entre de nuit dans les grottes, les chauves-souris baissent ensuite, et Horizon envoie juste après des échantillons biologiques à Meridian.
+- Meridian approvisionne Asterion. Chaque livraison précède un MRP-42, et le jour du MRP-42, du matériel est retiré du stock « pour consommation ».
+- Les dirigeants traités paraissent beaucoup plus jeunes et restent très longtemps en poste.
+- Les patients atypiques vivent sous des noms légèrement modifiés, et des dirigeants de sociétés se remplacent depuis le XIXe siècle.
 
-**Notre hypothèse principale**
-MRP-42 serait fabriqué à partir de ce qu'Horizon prélève dans les grottes (des chauves-souris), puis administré en secret à des dirigeants pour ralentir leur vieillissement.
+**Ce que les documents décrivent**
+- Les patients atypiques seraient une population cachée non humaine (« Chamaeleonidian »), qui change d'identité au fil des siècles et dirige Meridian (Elias Voss).
+- Les chauves-souris collectées serviraient à préparer MRP-42 ; une partie partirait vers une destination non terrestre.
+
+**Notre conclusion**
+Une population cachée, non humaine selon les documents, fait capturer des chauves-souris dans les grottes. Elle s'en sert pour préparer MRP-42, un traitement qui garde jeunes et au pouvoir des dirigeants humains.
 
 **Ce qu'on ne peut pas prouver**
-- Le contenu des colis : seule la catégorie déclarée est connue, et elle peut être fausse.
-- La fabrication de MRP-42 : on ne voit pas ce qui se passe chez Meridian entre l'arrivée des échantillons et le départ vers Asterion.
-- Un paiement : on voit que MRP-42 est réservé aux dirigeants, pas qu'il leur est vendu.
-
-**Questions encore ouvertes** (croisements)
-- Les chauves-souris baissent-elles après chaque visite d'Horizon, et pas seulement à KNT-KES ?
-- Les 11 patients atypiques sont-ils les mêmes personnes que leurs « homonymes » de public records ?
-- Les personnes à l'âge impossible et les sociétés qui se succèdent sont-elles liées aux mêmes personnes ?
-- Un document parle d'*Eonycteris*, l'espèce de chauve-souris du rapport de KNT-KES : que dit-il ?
+- Le contenu exact des colis : seule la catégorie déclarée est connue, et elle peut être fausse.
+- La nature non humaine des patients atypiques : elle vient de documents, pas de mesures.
+- Le rôle de l'autorité « Unwabu » et la destination finale des envois.
