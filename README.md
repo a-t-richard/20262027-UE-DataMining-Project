@@ -1,6 +1,6 @@
 # UE Data Mining – Projet 2026-2027 – Groupe 3
 
-**Membres :** Siyaman MOHAMAD, Yannis BORDJI, Ilicia BENAOUDIA, Cédric AUDIE, Mohamed Ali DAMERGI,AMER Yann, Kenza ABOU-EL KASEM
+**Membres :** Siyaman MOHAMAD, Yannis BORDJI, Ilicia BENAOUDIA, Cédric AUDIE, Mohamed Ali DAMERGI, Yann AMER, Kenza ABOU-EL KASEM
 
 **Objectif :** retrouver le narratif caché dans les données du projet (santé, écologie, registres publics, logistique) avec les méthodes de data mining vues en cours.
 
@@ -37,7 +37,17 @@ Liens entre domaines :
 
 Le dictionnaire des colonnes est dans `data/data_dictionary.csv`.
 
-## 3. Ordre d'exécution
+## 3. Ce qu'on a trouvé (résumé)
+
+- **Santé :** 11 patients ont un corps qui ne ressemble pas à celui d'un humain (deux cœurs, yeux indépendants), et quelques dirigeants reçoivent régulièrement un traitement, le `MRP-42`, et paraissent plus jeunes que leur âge.
+- **Écologie :** les chauves-souris disparaissent dans certaines grottes, sans cause naturelle.
+- **Registres publics :** l'organisme Horizon entre dans ces grottes la nuit ; des dirigeants restent en poste anormalement longtemps et changent d'identité.
+- **Logistique :** Horizon envoie des échantillons biologiques à Meridian Biologistics, qui livre ensuite les établissements où les dirigeants reçoivent le `MRP-42`.
+- **Croisements :** les chauves-souris baissent après chaque visite d'Horizon, et plusieurs patients atypiques se retrouvent sous un nom proche dans les registres publics.
+
+**Narratif :** Horizon prélève des chauves-souris dans les grottes, Meridian en tire un traitement (`MRP-42`) donné à des dirigeants qui vieillissent moins vite et changent d'identité. Les patients atypiques correspondent à ces identités, et des documents internes parlent d'êtres non humains (« Chamaeleonidian »). Les détails, les chiffres et les limites sont dans `06_rapport_final.ipynb`.
+
+## 4. Ordre d'exécution
 
 Les notebooks doivent être lancés dans cet ordre, car chacun utilise ce que le précédent a produit :
 
@@ -51,7 +61,7 @@ Les notebooks doivent être lancés dans cet ordre, car chacun utilise ce que le
 
 Pour chaque notebook : « Restart & Run All ».
 
-## 4. Installation
+## 5. Installation
 
 **Prérequis :** Python 3.11 ou plus récent (`python --version` pour vérifier).
 
@@ -116,6 +126,6 @@ done
 
 Nous avons fait ce test dans un environnement neuf (Windows, PowerShell, venv) : les 10 notebooks affichent `OK`.
 
-## 5. Usage de l'IA
+## 6. Usage de l'IA
 
 Notre usage de l'IA générative est décrit dans `06_rapport_final.ipynb`, partie 6.
