@@ -8,17 +8,17 @@
 
 ## 1. Contenu du dépôt
 
-- `01_health_nettoyage.ipynb` / `01_health_analyse.ipynb` : données de santé
-- `02_ecology_nettoyage.ipynb` / `02_ecology_analyse.ipynb` : données écologiques
-- `03_public_records_nettoyage.ipynb` / `03_public_records_analyse.ipynb` : registres publics
-- `04_logistics_nettoyage.ipynb` / `04_logistics_analyse.ipynb` : logistique
-- `05_croisements.ipynb` : liens entre les quatre domaines
-- `06_rapport_final.ipynb` : synthèse (méthode, résultats, narratif, limites, usage de l'IA)
-- `pistes.md` : notre carnet d'enquête (pistes suivies, questions, hypothèses)
+- [`01_health_nettoyage.ipynb`](01_health_nettoyage.ipynb) / [`01_health_analyse.ipynb`](01_health_analyse.ipynb) : données de santé
+- [`02_ecology_nettoyage.ipynb`](02_ecology_nettoyage.ipynb) / [`02_ecology_analyse.ipynb`](02_ecology_analyse.ipynb) : données écologiques
+- [`03_public_records_nettoyage.ipynb`](03_public_records_nettoyage.ipynb) / [`03_public_records_analyse.ipynb`](03_public_records_analyse.ipynb) : registres publics
+- [`04_logistics_nettoyage.ipynb`](04_logistics_nettoyage.ipynb) / [`04_logistics_analyse.ipynb`](04_logistics_analyse.ipynb) : logistique
+- [`05_croisements.ipynb`](05_croisements.ipynb) : liens entre les quatre domaines
+- [`06_rapport_final.ipynb`](06_rapport_final.ipynb) : synthèse (méthode, résultats, narratif, limites, usage de l'IA)
+- [`pistes.md`](pistes.md) : notre carnet d'enquête (pistes suivies, questions, hypothèses)
 - `data/` : données brutes fournies (ne pas modifier)
 - `data_clean/` : données nettoyées, créées par les notebooks de nettoyage
 - `resultats/` : fichiers produits par les analyses (`patients_reperes.csv`)
-- `requirements-pip.txt` : bibliothèques nécessaires pour faire tourner les notebooks
+- [`requirements-pip.txt`](requirements-pip.txt) : bibliothèques nécessaires pour faire tourner les notebooks
 - `requirements.txt` : environnement conda fourni avec le sujet (Python et Jupyter seulement)
 
 ## 2. Organisation des données
@@ -35,7 +35,7 @@ Liens entre domaines :
 - écologie ↔ registres publics / logistique : par l'organisme qui visite les grottes
 - santé ↔ registres publics : par les noms et dates de naissance (rapprochement approché, pas d'identifiant commun)
 
-Le dictionnaire des colonnes est dans `data/data_dictionary.csv`.
+Le dictionnaire des colonnes est dans [`data/data_dictionary.csv`](data/data_dictionary.csv).
 
 ## 3. Ce qu'on a trouvé (résumé)
 
@@ -45,19 +45,19 @@ Le dictionnaire des colonnes est dans `data/data_dictionary.csv`.
 - **Logistique :** Horizon envoie des échantillons biologiques à Meridian Biologistics, qui livre ensuite les établissements où les dirigeants reçoivent le `MRP-42`.
 - **Croisements :** les chauves-souris baissent après chaque visite d'Horizon, et plusieurs patients atypiques se retrouvent sous un nom proche dans les registres publics.
 
-**Narratif :** Horizon prélève des chauves-souris dans les grottes, Meridian en tire un traitement (`MRP-42`) donné à des dirigeants qui vieillissent moins vite et changent d'identité. Les patients atypiques correspondent à ces identités, et des documents internes parlent d'êtres non humains (« Chamaeleonidian »). Les détails, les chiffres et les limites sont dans `06_rapport_final.ipynb`.
+**Narratif :** Horizon prélève des chauves-souris dans les grottes, Meridian en tire un traitement (`MRP-42`) donné à des dirigeants qui vieillissent moins vite et changent d'identité. Les patients atypiques correspondent à ces identités, et des documents internes parlent d'êtres non humains (« Chamaeleonidian »). Les détails, les chiffres et les limites sont dans [`06_rapport_final.ipynb`](06_rapport_final.ipynb). Le cheminement de l'enquête (pistes suivies, questions posées, hypothèses, pistes sans résultat) est dans [`pistes.md`](pistes.md).
 
 ## 4. Ordre d'exécution
 
 Les notebooks doivent être lancés dans cet ordre, car chacun utilise ce que le précédent a produit :
 
-1. Les quatre nettoyages : `01_health_nettoyage`, `02_ecology_nettoyage`, `03_public_records_nettoyage`, `04_logistics_nettoyage`
+1. Les quatre nettoyages : [`01_health_nettoyage`](01_health_nettoyage.ipynb), [`02_ecology_nettoyage`](02_ecology_nettoyage.ipynb), [`03_public_records_nettoyage`](03_public_records_nettoyage.ipynb), [`04_logistics_nettoyage`](04_logistics_nettoyage.ipynb)
    → ils créent `data_clean/`, utilisé par toutes les analyses.
-2. `01_health_analyse`
+2. [`01_health_analyse`](01_health_analyse.ipynb)
    → crée `resultats/patients_reperes.csv` (patients atypiques et patients ayant reçu plusieurs MRP-42), réutilisé ensuite.
-3. `02_ecology_analyse`, `03_public_records_analyse`, `04_logistics_analyse`
-4. `05_croisements` : a besoin des données nettoyées des quatre domaines et de `resultats/`.
-5. `06_rapport_final` : synthèse, à lire en dernier.
+3. [`02_ecology_analyse`](02_ecology_analyse.ipynb), [`03_public_records_analyse`](03_public_records_analyse.ipynb), [`04_logistics_analyse`](04_logistics_analyse.ipynb)
+4. [`05_croisements`](05_croisements.ipynb) : a besoin des données nettoyées des quatre domaines et de `resultats/`.
+5. [`06_rapport_final`](06_rapport_final.ipynb) : synthèse, à lire en dernier.
 
 Pour chaque notebook : « Restart & Run All ».
 
@@ -65,7 +65,7 @@ Pour chaque notebook : « Restart & Run All ».
 
 **Prérequis :** Python 3.11 ou plus récent (`python --version` pour vérifier).
 
-Les bibliothèques utilisées par les notebooks sont listées dans `requirements-pip.txt` : pandas, numpy, matplotlib, seaborn, scipy, scikit-learn, networkx, pyarrow et Jupyter. Le fichier `requirements.txt` fourni avec le sujet ne contient que Python et Jupyter : il ne suffit pas pour lancer nos notebooks.
+Les bibliothèques utilisées par les notebooks sont listées dans [`requirements-pip.txt`](requirements-pip.txt) : pandas, numpy, matplotlib, seaborn, scipy, scikit-learn, networkx, pyarrow et Jupyter. Le fichier `requirements.txt` fourni avec le sujet ne contient que Python et Jupyter : il ne suffit pas pour lancer nos notebooks.
 
 Toutes les commandes se lancent depuis le dossier du dépôt.
 
@@ -128,4 +128,4 @@ Nous avons fait ce test dans un environnement neuf (Windows, PowerShell, venv) :
 
 ## 6. Usage de l'IA
 
-Notre usage de l'IA générative est décrit dans `06_rapport_final.ipynb`, partie 6.
+Notre usage de l'IA générative est décrit dans [`06_rapport_final.ipynb`](06_rapport_final.ipynb), partie 6.
