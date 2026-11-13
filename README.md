@@ -37,7 +37,8 @@ Liens entre domaines :
 
 Le dictionnaire des colonnes est dans [`data/data_dictionary.csv`](data/data_dictionary.csv).
 
-## 3. Ce qu'on a trouvé (résumé)
+## 3. Ce qu'on a trouvé
+Le cheminement de l'enquête (pistes suivies, questions posées, hypothèses, pistes sans résultat) est dans [`pistes.md`](pistes.md), voici ce qu'on a trouvé brièvement.
 
 - **Santé :** 11 patients ont un corps qui ne ressemble pas à celui d'un humain (deux cœurs, yeux indépendants), et quelques dirigeants reçoivent régulièrement un traitement, le `MRP-42`, et paraissent plus jeunes que leur âge.
 - **Écologie :** les chauves-souris disparaissent dans certaines grottes, sans cause naturelle.
@@ -45,7 +46,7 @@ Le dictionnaire des colonnes est dans [`data/data_dictionary.csv`](data/data_dic
 - **Logistique :** Horizon envoie des échantillons biologiques à Meridian Biologistics, qui livre ensuite les établissements où les dirigeants reçoivent le `MRP-42`.
 - **Croisements :** les chauves-souris baissent après chaque visite d'Horizon, et plusieurs patients atypiques se retrouvent sous un nom proche dans les registres publics.
 
-**Narratif :** Horizon prélève des chauves-souris dans les grottes, Meridian en tire un traitement (`MRP-42`) donné à des dirigeants qui vieillissent moins vite et changent d'identité. Les patients atypiques correspondent à ces identités, et des documents internes parlent d'êtres non humains (« Chamaeleonidian »). Les détails, les chiffres et les limites sont dans [`06_rapport_final.ipynb`](06_rapport_final.ipynb). Le cheminement de l'enquête (pistes suivies, questions posées, hypothèses, pistes sans résultat) est dans [`pistes.md`](pistes.md).
+**Narratif :** Horizon prélève des chauves-souris dans les grottes, Meridian en tire un traitement (`MRP-42`) donné à des dirigeants qui vieillissent moins vite et changent d'identité. Les patients atypiques correspondent à ces identités, et des documents internes parlent d'êtres non humains (« Chamaeleonidian »). Les détails, les chiffres et les limites sont dans [`06_rapport_final.ipynb`](06_rapport_final.ipynb).
 
 ## 4. Ordre d'exécution
 
