@@ -1,124 +1,121 @@
-# Année 2026-2027 - M2IA/M2DS - UE Data Mining - Projet
-## Règles de formatage :
+# UE Data Mining – Projet 2026-2027 – Groupe 3
 
-TODO
+**Membres :** Siyaman MOHAMAD, Yannis BORDJI, Ilicia BENAOUDIA, Cédric AUDIE, Mohamed Ali DAMERGI,AMER Yann, Kenza ABOU-EL KASEM
 
-## Carte des fichiers
-ecology
+**Objectif :** retrouver le narratif caché dans les données du projet (santé, écologie, registres publics, logistique) avec les méthodes de data mining vues en cours.
 
-<img width="976" height="511" alt="image" src="https://github.com/user-attachments/assets/68c1a212-f2d7-41ba-980c-611e65fc7274" />
+---
 
-<img width="938" height="216" alt="image" src="https://github.com/user-attachments/assets/23f0c797-bc81-4494-806d-954d6e5a66cc" />
+## 1. Contenu du dépôt
+
+- `01_health_nettoyage.ipynb` / `01_health_analyse.ipynb` : données de santé
+- `02_ecology_nettoyage.ipynb` / `02_ecology_analyse.ipynb` : données écologiques
+- `03_public_records_nettoyage.ipynb` / `03_public_records_analyse.ipynb` : registres publics
+- `04_logistics_nettoyage.ipynb` / `04_logistics_analyse.ipynb` : logistique
+- `05_croisements.ipynb` : liens entre les quatre domaines
+- `06_rapport_final.ipynb` : synthèse (méthode, résultats, narratif, limites, usage de l'IA)
+- `pistes.md` : notre carnet d'enquête (pistes suivies, questions, hypothèses)
+- `data/` : données brutes fournies (ne pas modifier)
+- `data_clean/` : données nettoyées, créées par les notebooks de nettoyage
+- `resultats/` : fichiers produits par les analyses (`patients_reperes.csv`)
+- `requirements-pip.txt` : bibliothèques nécessaires pour faire tourner les notebooks
+- `requirements.txt` : environnement conda fourni avec le sujet (Python et Jupyter seulement)
+
+## 2. Organisation des données
+
+| Domaine | Fichiers principaux | Ce qu'on y trouve |
+|---|---|---|
+| Santé | patients, consultations, observations, actes, notes, enregistrements cardiaques | 240 patients suivis dans plusieurs établissements |
+| Écologie | sites, relevés de chauves-souris, vergers, météo, rapports de terrain, appareils de suivi | suivi des chauves-souris et des vergers (durians) |
+| Registres publics | sociétés, dirigeants, nominations, licences, documents, mémos, visites des sites | qui dirige quoi, depuis quand, qui entre où |
+| Logistique | partenaires, sites, commandes, envois, réceptions, stocks | ce qui circule entre les organismes |
+
+Liens entre domaines :
+- santé ↔ logistique : par l'établissement (site) et la date
+- écologie ↔ registres publics / logistique : par l'organisme qui visite les grottes
+- santé ↔ registres publics : par les noms et dates de naissance (rapprochement approché, pas d'identifiant commun)
+
+Le dictionnaire des colonnes est dans `data/data_dictionary.csv`.
+
+## 3. Ordre d'exécution
+
+Les notebooks doivent être lancés dans cet ordre, car chacun utilise ce que le précédent a produit :
+
+1. Les quatre nettoyages : `01_health_nettoyage`, `02_ecology_nettoyage`, `03_public_records_nettoyage`, `04_logistics_nettoyage`
+   → ils créent `data_clean/`, utilisé par toutes les analyses.
+2. `01_health_analyse`
+   → crée `resultats/patients_reperes.csv` (patients atypiques et patients ayant reçu plusieurs MRP-42), réutilisé ensuite.
+3. `02_ecology_analyse`, `03_public_records_analyse`, `04_logistics_analyse`
+4. `05_croisements` : a besoin des données nettoyées des quatre domaines et de `resultats/`.
+5. `06_rapport_final` : synthèse, à lire en dernier.
+
+Pour chaque notebook : « Restart & Run All ».
+
+## 4. Installation
+
+**Prérequis :** Python 3.11 ou plus récent (`python --version` pour vérifier).
+
+Les bibliothèques utilisées par les notebooks sont listées dans `requirements-pip.txt` : pandas, numpy, matplotlib, seaborn, scipy, scikit-learn, networkx, pyarrow et Jupyter. Le fichier `requirements.txt` fourni avec le sujet ne contient que Python et Jupyter : il ne suffit pas pour lancer nos notebooks.
+
+Toutes les commandes se lancent depuis le dossier du dépôt.
+
+**1. Créer un environnement virtuel**
+
+Windows (PowerShell) :
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+Linux / macOS :
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Le nom `(.venv)` doit apparaître au début de la ligne.
+
+**2. Installer les bibliothèques**
+```bash
+pip install -r requirements-pip.txt
+```
+
+Vérification :
+```bash
+python -c "import pandas, numpy, sklearn, scipy, seaborn, networkx, pyarrow; print('tout est installé')"
+```
+
+**3. Ouvrir les notebooks**
+```bash
+python -m jupyter lab
+```
+Puis ouvrir les notebooks dans l'ordre de la partie 4 et faire « Restart Kernel and Run All Cells » sur chacun.
+
+**Variante conda :** `conda create --name dm3 python=3.12`, `conda activate dm3`, puis `pip install -r requirements-pip.txt`.
 
 
-                            +-------------------------------------------+
-                            |             monitoring_sites              |
-                            |-------------------------------------------|
-                            | - site_code (PK)                          |
-                            | - site_name, region, habitat_category     |
-                            | - latitude, longitude, elevation_m        |
-                            +-------------------------------------------+
-                                  |
-                                  | 1
-                                  +--------------------+---------------------+--------------------+
-                                  | *                  | *                   | *                  | *
-    +-----------------------------v----+    +----------v----------+    +-----v--------------+    +v------------------------+
-    |           bat_surveys            |    |   orchard_surveys   |    |environmental_month |    |monitoring_device_operat.|
-    |----------------------------------|    |---------------------|    |--------------------|    |-------------------------|
-    | - survey_id (PK)                 |    | - orchard_survey_id |    | - site_code (FK)   |    | - device_operation_id   |
-    | - site_code (FK)                 |    | - site_code (FK)    |    | - reporting_month  |    | - site_code (FK)        |
-    | - colony_estimate, visit_count   |    | - fruit_set_rate_pct|    | - mean_temp, rain  |    | - device_reference      |
-    | - observed_bat_count             |    | - durian_yield_kg   |    | - pesticide_index  |    | - uptime_pct, fault_code|
-    +----------------------------------+    +---------------------+    +--------------------+    +-------------------------+
-                    ^                                                                                         ^
-                    | (related_survey_id)                                           (related_device_reference)|
-                    +-----------------------------+-----------------------------------------------------------+
-                                                  |
-                                   +--------------v---------------------+
-                                   |    environmental_field_reports     |
-                                   |------------------------------------|
-                                   | - document_id (PK)                 |
-                                   | - site_code (FK)                   |
-                                   | - reporting_period, title, text    |
-                                   +------------------------------------+
+**Tester tout le projet d'un coup (optionnel)**
 
+Cette commande exécute les 10 notebooks dans l'ordre et affiche `OK` ou `ERREUR` pour chacun. Les copies exécutées sont écrites dans `test_execution/`, les notebooks d'origine ne sont pas modifiés.
 
+Windows (PowerShell) :
+```powershell
+$notebooks = "01_health_nettoyage","02_ecology_nettoyage","03_public_records_nettoyage","04_logistics_nettoyage","01_health_analyse","02_ecology_analyse","03_public_records_analyse","04_logistics_analyse","05_croisements","06_rapport_final"
+foreach ($nb in $notebooks) {
+    python -m nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 --output-dir test_execution "$nb.ipynb" 2>&1 | Select-String "Error" | Select-Object -Last 1
+    if ($LASTEXITCODE -eq 0) { Write-Host "OK    $nb" } else { Write-Host "ERREUR $nb" }
+}
+```
 
+Linux / macOS :
+```bash
+for nb in 01_health_nettoyage 02_ecology_nettoyage 03_public_records_nettoyage 04_logistics_nettoyage 01_health_analyse 02_ecology_analyse 03_public_records_analyse 04_logistics_analyse 05_croisements 06_rapport_final; do
+  python -m nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 --output-dir test_execution "$nb.ipynb" > /dev/null 2>&1 && echo "OK     $nb" || echo "ERREUR $nb"
+done
+```
 
-<img width="960" height="411" alt="image" src="https://github.com/user-attachments/assets/b574b4a4-ba21-4c37-b144-d1f1847022e5" />
+Nous avons fait ce test dans un environnement neuf (Windows, PowerShell, venv) : les 10 notebooks affichent `OK`.
 
-<img width="975" height="304" alt="image" src="https://github.com/user-attachments/assets/fe64947b-1a90-4309-bac7-27fc3ea96368" />
+## 5. Usage de l'IA
 
-                                 
-
-<img width="949" height="394" alt="image" src="https://github.com/user-attachments/assets/85dc2408-9e64-433d-8fef-8174a27d6013" />
-
-<img width="1023" height="273" alt="image" src="https://github.com/user-attachments/assets/5d4835e7-294a-45a4-a841-6a5a8345be47" />
-
-pour public records
-<img width="957" height="387" alt="image" src="https://github.com/user-attachments/assets/987df92b-6939-4f2f-aa59-60c3b40b6181" />
-
-
-<img width="935" height="444" alt="image" src="https://github.com/user-attachments/assets/a898eb2f-7c12-4c64-8942-d71df9920d8d" />
-
-
-
-Sur ce repository, vous pourrez trouver l’ensemble des éléments
-nécessaire au projet de groupe de l’UE Data Mining pour l’année 2026-2027.
-
-Votre objectif est de mettre en évidence le narratif caché à l’intérieur
-de ces données à l’aide des notions et méthodes vues au fur et
-à mesure de l’UE Data Mining.
-
-/!\ Ce narratif est entièrement fictif. Il a été créé dans un objectif pédagogique et ne reflète aucunement la réalité /!\
-
-Pour ce faire, vous travaillerez en groupe en débattant et
-en vous répartissant les tâches à faire.
-
-Le rendu attendu est un rapport, sous la forme d’un notebook jupyter,
-qui détaillera vos réflexions, les méthodes et vos conclusions.
-
-Pour cela, le fichier `Base_notebook_to_complete.ipynb` est mis à votre disposition (vous pouvez changer le nom si vous le souhaitez).
-
-Pensez à bien y préciser:
-
-* Le nom de votre groupe
-* La liste des membres
-
-Vous serez avant tout évalué sur votre méthode, donc soyez précis, détaillé
-et rigoureux dans vos descriptions.
-
-/!\ L’usage de l’IA Générative est fortement déconseillé (ce sont vos cerveaux que l’on souhaite entrainer ici).
-Si vous souhaitez tout de même l’utiliser, cela doit être justifié et documenté dans votre rapport /!\
-
-## Jeux de données
-
-Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suivants:
-
-- `data/public_records/` — jeux de données issus d’institutions administratives publiques,
-- `data/health/` — jeux de données médicales issus de cliniques et d’hôpitaux,
-- `data/ecology/` — jeux de données issus de recherches environnementales,
-- `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
-
-Le fichier `data/data_dictionary.csv` détaille les caractéristiques des variables présentes dans chaque jeu de données.
-
-/!\ Ces jeux de données sont entièrement synthétiques et ont été créé dans un but pédogagique.
-Ils ne représentent pas des informations factuelles à propos de personnes réelles,
-d’organisations réelles, de gouvernnements réels ou localisations réelles.
-Toute ressemblance avec des personnes réelles, physiques ou morales, est totalement involontaire et fortuite. /!\ 
- 
-## Pour bien commencer
-
-1. Faites un `fork` de ce repository vers un noveau repository pour votre groupe.
-2. Clonez le repository de votre groupe sur votre machine.
-3. (Installez conda si ce n’est pas déjà fait)
-4. Installez les dépendances avec la commande: `conda create --name <envname> --file requirements.txt`
-5. Lancez le notebook avec la commande: `jupyter notebook nom-du-notebook.ipynb`
-6. Travaillez en groupe et complétez le notebook
-
-## Rendu
-
-Le rendu pourra se faire via:
-
-* une `pull-request`, 
-* en m’envoyant une archive .zip contenant votre travail à `antoine.richard@chu-lyon.fr`.
+Notre usage de l'IA générative est décrit dans `06_rapport_final.ipynb`, partie 6.

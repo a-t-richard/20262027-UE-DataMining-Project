@@ -416,7 +416,7 @@ OBS-0000414,ENC-000032,PAT-31233,2021-11-06 12:29:30,THORVIB,thoracic vibration 
 OBS-0000415,ENC-000032,PAT-31233,2021-11-06 12:30:00,THORPEAK,thoracic secondary peak index,35.1,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0000416,ENC-000032,PAT-31233,2021-11-06 12:30:30,LATSWAY,lateral sway index,56.6,,index,0–100,review,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0000417,ENC-000032,PAT-31233,2021-11-06 12:31:00,BALANCE,balance score,93.4,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
-OBS-0000418,ENC-000032,PAT-31233,2021-11-06 12:31:30,BIOAGE,estimated biological age,36.8,,years,18–100,WITHIN_EXPECTED_RANGE,DEV-001,acceptable,LIC-VLN-MED-1004
+OBS-0000418,ENC-000032,PAT-31233,2021-11-06 12:31:30,BIOAGE,estimated biological age,36.8,,years,18–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0000419,ENC-000032,PAT-31233,2021-11-06 12:32:00,MOBILITY,mobility score,74.8,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0000420,ENC-000032,PAT-31233,2021-11-06 12:32:30,COGNITIVE,cognitive score,83.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0000421,ENC-000032,PAT-31233,2021-11-06 12:33:00,INFLAM,normalized inflammation marker,0.217,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
@@ -478,7 +478,7 @@ OBS-0000476,ENC-000037,PAT-31065,2023-01-19 12:27:30,APICAL,apical cardiac rate,
 OBS-0000477,ENC-000037,PAT-31065,2023-01-19 12:28:00,PPULSE,peripheral pulse rate,68.9,,bpm,50–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0000478,ENC-000037,PAT-31065,2023-01-19 12:28:30,CARDOUT,estimated cardiac output,7.29,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0000479,ENC-000037,PAT-31065,2023-01-19 12:29:00,O2SAT,peripheral oxygen saturation,95.8,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
-OBS-0000480,ENC-000037,PAT-31065,2023-01-19 12:29:30,THORVIB,thoracic vibration index,58.1,,index,0–100,REVIEW,DEV-002,acceptable,LIC-VLN-MED-1006
+OBS-0000480,ENC-000037,PAT-31065,2023-01-19 12:29:30,THORVIB,thoracic vibration index,58.1,,index,0–100,review,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0000481,ENC-000037,PAT-31065,2023-01-19 12:30:00,THORPEAK,thoracic secondary peak index,45.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0000482,ENC-000037,PAT-31065,2023-01-19 12:30:30,LATSWAY,lateral sway index,55.9,,index,0–100,review,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0000483,ENC-000037,PAT-31065,2023-01-19 12:31:00,BALANCE,balance score,66.2,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
@@ -1143,7 +1143,7 @@ OBS-0001141,ENC-000088,PAT-31142,2021-05-02 11:28:00,PPULSE,peripheral pulse rat
 OBS-0001142,ENC-000088,PAT-31142,2021-05-02 11:28:30,O2SAT,peripheral oxygen saturation,96.1,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0001143,ENC-000088,PAT-31142,2021-05-02 11:29:00,THORVIB,thoracic vibration index,26.1,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0001144,ENC-000088,PAT-31142,2021-05-02 11:29:30,THORPEAK,thoracic secondary peak index,34.5,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
-OBS-0001145,ENC-000088,PAT-31142,2021-05-02 11:30:00,LATSWAY,lateral sway index,37.9,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-002,acceptable,LIC-VLN-MED-1005
+OBS-0001145,ENC-000088,PAT-31142,2021-05-02 11:30:00,LATSWAY,lateral sway index,37.9,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0001146,ENC-000088,PAT-31142,2021-05-02 11:30:30,BALANCE,balance score,83.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0001147,ENC-000088,PAT-31142,2021-05-02 11:31:00,BIOAGE,estimated biological age,54.9,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0001148,ENC-000088,PAT-31142,2021-05-02 11:31:30,MOBILITY,mobility score,96.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
@@ -1154,7 +1154,7 @@ OBS-0001152,ENC-000089,PAT-31142,2023-05-19 12:27:00,RPULSE,resting pulse,72.2,,
 OBS-0001153,ENC-000089,PAT-31142,2023-05-19 12:27:30,APICAL,apical cardiac rate,70.0,,bpm,50–110,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0001154,ENC-000089,PAT-31142,2023-05-19 12:28:00,PPULSE,peripheral pulse rate,69.2,,bpm,50–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0001155,ENC-000089,PAT-31142,2023-05-19 12:28:30,O2SAT,peripheral oxygen saturation,95.6,,%,94–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
-OBS-0001156,ENC-000089,PAT-31142,2023-05-19 12:29:00,THORVIB,thoracic vibration index,27.6,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-003,acceptable,LIC-VLN-MED-1001
+OBS-0001156,ENC-000089,PAT-31142,2023-05-19 12:29:00,THORVIB,thoracic vibration index,27.6,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0001157,ENC-000089,PAT-31142,2023-05-19 12:29:30,THORPEAK,thoracic secondary peak index,38.9,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0001158,ENC-000089,PAT-31142,2023-05-19 12:30:00,LATSWAY,lateral sway index,22.5,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0001159,ENC-000089,PAT-31142,2023-05-19 12:30:30,BALANCE,balance score,81.9,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
@@ -2020,7 +2020,7 @@ OBS-0002018,ENC-000154,PAT-31103,2019-05-25 09:28:00,PPULSE,peripheral pulse rat
 OBS-0002019,ENC-000154,PAT-31103,2019-05-25 09:28:30,CARDOUT,estimated cardiac output,4.49,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
 OBS-0002020,ENC-000154,PAT-31103,2019-05-25 09:29:00,O2SAT,peripheral oxygen saturation,95.6,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
 OBS-0002021,ENC-000154,PAT-31103,2019-05-25 09:29:30,THORVIB,thoracic vibration index,3.2,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
-OBS-0002022,ENC-000154,PAT-31103,2019-05-25 09:30:00,THORPEAK,thoracic secondary peak index,23.1,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-RES-1016
+OBS-0002022,ENC-000154,PAT-31103,2019-05-25 09:30:00,THORPEAK,thoracic secondary peak index,23.1,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
 OBS-0002023,ENC-000154,PAT-31103,2019-05-25 09:30:30,LATSWAY,lateral sway index,19.0,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
 OBS-0002024,ENC-000154,PAT-31103,2019-05-25 09:31:00,BALANCE,balance score,87.5,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
 OBS-0002025,ENC-000154,PAT-31103,2019-05-25 09:31:30,BIOAGE,estimated biological age,57.8,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1016
@@ -2345,7 +2345,7 @@ OBS-0002343,ENC-000178,PAT-31064,2023-05-15 12:29:00,O2SAT,peripheral oxygen sat
 OBS-0002344,ENC-000178,PAT-31064,2023-05-15 12:29:30,THORVIB,thoracic vibration index,42.6,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
 OBS-0002345,ENC-000178,PAT-31064,2023-05-15 12:30:00,THORPEAK,thoracic secondary peak index,30.3,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
 OBS-0002346,ENC-000178,PAT-31064,2023-05-15 12:30:30,LATSWAY,lateral sway index,26.5,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
-OBS-0002347,ENC-000178,PAT-31064,2023-05-15 12:31:00,BALANCE,balance score,60.9,,index,0–100,Within_Expected_Range,DEV-008,acceptable,LIC-VLN-MED-1006
+OBS-0002347,ENC-000178,PAT-31064,2023-05-15 12:31:00,BALANCE,balance score,60.9,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
 OBS-0002348,ENC-000178,PAT-31064,2023-05-15 12:31:30,BIOAGE,estimated biological age,49.0,,years,18–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
 OBS-0002349,ENC-000178,PAT-31064,2023-05-15 12:32:00,MOBILITY,mobility score,89.0,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
 OBS-0002350,ENC-000178,PAT-31064,2023-05-15 12:32:30,COGNITIVE,cognitive score,82.0,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1006
@@ -2553,7 +2553,7 @@ OBS-0002551,ENC-000193,PAT-31081,2021-04-05 12:33:00,INFLAM,normalized inflammat
 OBS-0002552,ENC-000193,PAT-31081,2021-04-05 12:33:30,OCULAR,ocular tracking interpretation,,atypical,,normal; atypical; inconclusive,review,DEV-003,acceptable,LIC-VLN-MED-1003
 OBS-0002553,ENC-000194,PAT-31219,2017-06-26 09:27:00,RPULSE,resting pulse,82.2,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0002554,ENC-000194,PAT-31219,2017-06-26 09:27:30,APICAL,apical cardiac rate,82.1,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
-OBS-0002555,ENC-000194,PAT-31219,2017-06-26 09:28:00,PPULSE,peripheral pulse rate,73.7,,bpm,50–100,Within_Expected_Range,DEV-001,acceptable,LIC-VLN-MED-1001
+OBS-0002555,ENC-000194,PAT-31219,2017-06-26 09:28:00,PPULSE,peripheral pulse rate,73.7,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0002556,ENC-000194,PAT-31219,2017-06-26 09:28:30,CARDOUT,estimated cardiac output,6.39,,l/min,3.5–8.0,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0002557,ENC-000194,PAT-31219,2017-06-26 09:29:00,O2SAT,peripheral oxygen saturation,98.9,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0002558,ENC-000194,PAT-31219,2017-06-26 09:29:30,THORVIB,thoracic vibration index,31.9,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
@@ -2587,7 +2587,7 @@ OBS-0002585,ENC-000196,PAT-31219,2019-10-28 11:29:00,O2SAT,peripheral oxygen sat
 OBS-0002586,ENC-000196,PAT-31219,2019-10-28 11:29:30,THORVIB,thoracic vibration index,11.9,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0002587,ENC-000196,PAT-31219,2019-10-28 11:30:00,LATSWAY,lateral sway index,22.2,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0002588,ENC-000196,PAT-31219,2019-10-28 11:30:30,BALANCE,balance score,68.8,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
-OBS-0002589,ENC-000196,PAT-31219,2019-10-28 11:31:00,BIOAGE,estimated biological age,18.1,,years,18–100,Within_Expected_Range,DEV-003,acceptable,LIC-VLN-RES-1016
+OBS-0002589,ENC-000196,PAT-31219,2019-10-28 11:31:00,BIOAGE,estimated biological age,18.1,,years,18–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0002590,ENC-000196,PAT-31219,2019-10-28 11:31:30,MOBILITY,mobility score,77.7,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0002591,ENC-000196,PAT-31219,2019-10-28 11:32:00,COGNITIVE,cognitive score,90.4,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0002592,ENC-000196,PAT-31219,2019-10-28 11:32:30,INFLAM,normalized inflammation marker,0.34,,index,0–1.5,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
@@ -2668,7 +2668,7 @@ OBS-0002666,ENC-000202,PAT-31195,2017-10-29 09:29:00,O2SAT,peripheral oxygen sat
 OBS-0002667,ENC-000202,PAT-31195,2017-10-29 09:29:30,THORVIB,thoracic vibration index,16.6,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
 OBS-0002668,ENC-000202,PAT-31195,2017-10-29 09:30:00,THORPEAK,thoracic secondary peak index,23.9,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
 OBS-0002669,ENC-000202,PAT-31195,2017-10-29 09:30:30,LATSWAY,lateral sway index,5.3,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
-OBS-0002670,ENC-000202,PAT-31195,2017-10-29 09:31:00,BALANCE,balance score,63.5,,index,0–100,within_expected_range,DEV-003,ACCEPTABLE,LIC-VLN-RES-1044
+OBS-0002670,ENC-000202,PAT-31195,2017-10-29 09:31:00,BALANCE,balance score,63.5,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
 OBS-0002671,ENC-000202,PAT-31195,2017-10-29 09:31:30,MOBILITY,mobility score,70.8,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
 OBS-0002672,ENC-000202,PAT-31195,2017-10-29 09:32:00,COGNITIVE,cognitive score,94.5,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1044
 OBS-0002673,ENC-000202,PAT-31195,2017-10-29 09:32:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-003,acceptable,LIC-VLN-RES-1044
@@ -2839,7 +2839,7 @@ OBS-0002837,ENC-000215,PAT-31095,2022-03-07 11:30:30,LATSWAY,lateral sway index,
 OBS-0002838,ENC-000215,PAT-31095,2022-03-07 11:31:00,BALANCE,balance score,81.0,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1044
 OBS-0002839,ENC-000215,PAT-31095,2022-03-07 11:31:30,BIOAGE,estimated biological age,56.8,,years,18–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1044
 OBS-0002840,ENC-000215,PAT-31095,2022-03-07 11:32:00,MOBILITY,mobility score,74.4,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1044
-OBS-0002841,ENC-000215,PAT-31095,2022-03-07 11:32:30,COGNITIVE,cognitive score,85.6,,index,0–100,within_expected_range,DEV-008,Acceptable,LIC-VLN-RES-1044
+OBS-0002841,ENC-000215,PAT-31095,2022-03-07 11:32:30,COGNITIVE,cognitive score,85.6,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1044
 OBS-0002842,ENC-000215,PAT-31095,2022-03-07 11:33:00,INFLAM,normalized inflammation marker,0.606,,index,0–1.5,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1044
 OBS-0002843,ENC-000216,PAT-31095,2023-06-26 12:27:00,RPULSE,resting pulse,73.2,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0002844,ENC-000216,PAT-31095,2023-06-26 12:27:30,APICAL,apical cardiac rate,79.9,,bpm,50–110,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
@@ -2963,11 +2963,11 @@ OBS-0002961,ENC-000224,PAT-31126,2023-08-12 12:33:00,INFLAM,normalized inflammat
 OBS-0002962,ENC-000224,PAT-31126,2023-08-12 12:33:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0002963,ENC-000225,PAT-31223,2019-10-07 09:27:00,RPULSE,resting pulse,93.6,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002964,ENC-000225,PAT-31223,2019-10-07 09:27:30,APICAL,apical cardiac rate,97.0,,bpm,50–110,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
-OBS-0002965,ENC-000225,PAT-31223,2019-10-07 09:28:00,PPULSE,peripheral pulse rate,86.4,,bpm,50–100,within_expected_range,DEV-009,Acceptable,LIC-VLN-MED-1006
+OBS-0002965,ENC-000225,PAT-31223,2019-10-07 09:28:00,PPULSE,peripheral pulse rate,86.4,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002966,ENC-000225,PAT-31223,2019-10-07 09:28:30,CARDOUT,estimated cardiac output,4.61,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002967,ENC-000225,PAT-31223,2019-10-07 09:29:00,O2SAT,peripheral oxygen saturation,95.0,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002968,ENC-000225,PAT-31223,2019-10-07 09:29:30,THORVIB,thoracic vibration index,27.2,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
-OBS-0002969,ENC-000225,PAT-31223,2019-10-07 09:30:00,THORPEAK,thoracic secondary peak index,40.4,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-MED-1006
+OBS-0002969,ENC-000225,PAT-31223,2019-10-07 09:30:00,THORPEAK,thoracic secondary peak index,40.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002970,ENC-000225,PAT-31223,2019-10-07 09:30:30,LATSWAY,lateral sway index,55.0,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002971,ENC-000225,PAT-31223,2019-10-07 09:31:00,BALANCE,balance score,71.5,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0002972,ENC-000225,PAT-31223,2019-10-07 09:31:30,BIOAGE,estimated biological age,31.4,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
@@ -3004,7 +3004,7 @@ OBS-0003002,ENC-000228,PAT-31071,2020-01-24 09:27:00,RPULSE,resting pulse,67.9,,
 OBS-0003003,ENC-000228,PAT-31071,2020-01-24 09:27:30,APICAL,apical cardiac rate,86.9,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0003004,ENC-000228,PAT-31071,2020-01-24 09:28:00,PPULSE,peripheral pulse rate,84.3,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0003005,ENC-000228,PAT-31071,2020-01-24 09:28:30,O2SAT,peripheral oxygen saturation,98.8,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
-OBS-0003006,ENC-000228,PAT-31071,2020-01-24 09:29:00,THORVIB,thoracic vibration index,22.3,,index,0–100,Within_Expected_Range,DEV-001,acceptable,LIC-VLN-RES-1044
+OBS-0003006,ENC-000228,PAT-31071,2020-01-24 09:29:00,THORVIB,thoracic vibration index,22.3,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0003007,ENC-000228,PAT-31071,2020-01-24 09:29:30,THORPEAK,thoracic secondary peak index,14.9,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0003008,ENC-000228,PAT-31071,2020-01-24 09:30:00,LATSWAY,lateral sway index,38.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0003009,ENC-000228,PAT-31071,2020-01-24 09:30:30,BALANCE,balance score,62.3,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
@@ -3356,7 +3356,7 @@ OBS-0003354,ENC-000254,PAT-31057,2021-10-02 11:33:30,OCULAR,ocular tracking inte
 OBS-0003355,ENC-000255,PAT-31057,2023-03-09 12:27:00,RPULSE,resting pulse,90.7,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0003356,ENC-000255,PAT-31057,2023-03-09 12:27:30,APICAL,apical cardiac rate,92.0,,bpm,50–110,discordant,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0003357,ENC-000255,PAT-31057,2023-03-09 12:28:00,PPULSE,peripheral pulse rate,75.7,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
-OBS-0003358,ENC-000255,PAT-31057,2023-03-09 12:28:30,CARDOUT,estimated cardiac output,7.2,,l/min,3.5–8.0,Within_Expected_Range,DEV-009,acceptable,LIC-VLN-MED-1002
+OBS-0003358,ENC-000255,PAT-31057,2023-03-09 12:28:30,CARDOUT,estimated cardiac output,7.2,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0003359,ENC-000255,PAT-31057,2023-03-09 12:29:00,O2SAT,peripheral oxygen saturation,98.4,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0003360,ENC-000255,PAT-31057,2023-03-09 12:29:30,THORVIB,thoracic vibration index,37.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
 OBS-0003361,ENC-000255,PAT-31057,2023-03-09 12:30:00,THORPEAK,thoracic secondary peak index,44.9,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1002
@@ -3860,7 +3860,7 @@ OBS-0003858,ENC-000293,PAT-31102,2023-08-11 12:28:00,PPULSE,peripheral pulse rat
 OBS-0003859,ENC-000293,PAT-31102,2023-08-11 12:28:30,CARDOUT,estimated cardiac output,6.1,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0003860,ENC-000293,PAT-31102,2023-08-11 12:29:00,O2SAT,peripheral oxygen saturation,98.5,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0003861,ENC-000293,PAT-31102,2023-08-11 12:29:30,THORPEAK,thoracic secondary peak index,22.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
-OBS-0003862,ENC-000293,PAT-31102,2023-08-11 12:30:00,LATSWAY,lateral sway index,14.3,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-RES-1044
+OBS-0003862,ENC-000293,PAT-31102,2023-08-11 12:30:00,LATSWAY,lateral sway index,14.3,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0003863,ENC-000293,PAT-31102,2023-08-11 12:30:30,BALANCE,balance score,86.1,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0003864,ENC-000293,PAT-31102,2023-08-11 12:31:00,BIOAGE,estimated biological age,42.8,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0003865,ENC-000293,PAT-31102,2023-08-11 12:31:30,MOBILITY,mobility score,97.3,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
@@ -4516,7 +4516,7 @@ OBS-0004514,ENC-000343,PAT-31046,2021-04-09 09:29:30,THORVIB,thoracic vibration 
 OBS-0004515,ENC-000343,PAT-31046,2021-04-09 09:30:00,THORPEAK,thoracic secondary peak index,30.5,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0004516,ENC-000343,PAT-31046,2021-04-09 09:30:30,LATSWAY,lateral sway index,32.5,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0004517,ENC-000343,PAT-31046,2021-04-09 09:31:00,BALANCE,balance score,73.9,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
-OBS-0004518,ENC-000343,PAT-31046,2021-04-09 09:31:30,BIOAGE,estimated biological age,59.0,,years,18–100,Within_Expected_Range,DEV-008,acceptable,LIC-VLN-RES-1016
+OBS-0004518,ENC-000343,PAT-31046,2021-04-09 09:31:30,BIOAGE,estimated biological age,59.0,,years,18–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0004519,ENC-000343,PAT-31046,2021-04-09 09:32:00,MOBILITY,mobility score,74.1,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0004520,ENC-000343,PAT-31046,2021-04-09 09:32:30,COGNITIVE,cognitive score,85.7,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0004521,ENC-000343,PAT-31046,2021-04-09 09:33:00,INFLAM,normalized inflammation marker,0.49,,index,0–1.5,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
@@ -4556,7 +4556,7 @@ OBS-0004554,ENC-000346,PAT-31046,2024-07-18 12:29:00,O2SAT,peripheral oxygen sat
 OBS-0004555,ENC-000346,PAT-31046,2024-07-18 12:29:30,THORVIB,thoracic vibration index,37.4,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0004556,ENC-000346,PAT-31046,2024-07-18 12:30:00,THORPEAK,thoracic secondary peak index,21.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0004557,ENC-000346,PAT-31046,2024-07-18 12:30:30,LATSWAY,lateral sway index,42.3,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
-OBS-0004558,ENC-000346,PAT-31046,2024-07-18 12:31:00,BALANCE,balance score,78.0,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-002,acceptable,LIC-VLN-MED-1001
+OBS-0004558,ENC-000346,PAT-31046,2024-07-18 12:31:00,BALANCE,balance score,78.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0004559,ENC-000346,PAT-31046,2024-07-18 12:31:30,BIOAGE,estimated biological age,62.3,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0004560,ENC-000346,PAT-31046,2024-07-18 12:32:00,MOBILITY,mobility score,74.1,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0004561,ENC-000346,PAT-31046,2024-07-18 12:32:30,COGNITIVE,cognitive score,86.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
@@ -4914,7 +4914,7 @@ OBS-0004912,ENC-000373,PAT-31034,2021-04-17 11:27:00,RPULSE,resting pulse,62.1,,
 OBS-0004913,ENC-000373,PAT-31034,2021-04-17 11:27:30,APICAL,apical cardiac rate,74.2,,bpm,50–110,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
 OBS-0004914,ENC-000373,PAT-31034,2021-04-17 11:28:00,PPULSE,peripheral pulse rate,71.1,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
 OBS-0004915,ENC-000373,PAT-31034,2021-04-17 11:28:30,CARDOUT,estimated cardiac output,4.18,,l/min,3.5–8.0,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
-OBS-0004916,ENC-000373,PAT-31034,2021-04-17 11:29:00,O2SAT,peripheral oxygen saturation,97.0,,%,94–100,WITHIN_EXPECTED_RANGE,DEV-008,acceptable,LIC-VLN-MED-1003
+OBS-0004916,ENC-000373,PAT-31034,2021-04-17 11:29:00,O2SAT,peripheral oxygen saturation,97.0,,%,94–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
 OBS-0004917,ENC-000373,PAT-31034,2021-04-17 11:29:30,THORVIB,thoracic vibration index,31.4,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
 OBS-0004918,ENC-000373,PAT-31034,2021-04-17 11:30:00,LATSWAY,lateral sway index,27.9,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
 OBS-0004919,ENC-000373,PAT-31034,2021-04-17 11:30:30,BALANCE,balance score,87.9,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1003
@@ -5026,7 +5026,7 @@ OBS-0005024,ENC-000381,PAT-31176,2021-05-14 11:30:30,LATSWAY,lateral sway index,
 OBS-0005025,ENC-000381,PAT-31176,2021-05-14 11:31:00,BALANCE,balance score,95.7,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0005026,ENC-000381,PAT-31176,2021-05-14 11:31:30,BIOAGE,estimated biological age,45.3,,years,18–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0005027,ENC-000381,PAT-31176,2021-05-14 11:32:00,MOBILITY,mobility score,77.6,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
-OBS-0005028,ENC-000381,PAT-31176,2021-05-14 11:32:30,COGNITIVE,cognitive score,91.7,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-001,acceptable,LIC-VLN-MED-1004
+OBS-0005028,ENC-000381,PAT-31176,2021-05-14 11:32:30,COGNITIVE,cognitive score,91.7,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0005029,ENC-000381,PAT-31176,2021-05-14 11:33:00,INFLAM,normalized inflammation marker,0.259,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0005030,ENC-000381,PAT-31176,2021-05-14 11:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0005031,ENC-000382,PAT-31176,2023-03-27 12:27:00,RPULSE,resting pulse,72.0,,bpm,50–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
@@ -5043,7 +5043,7 @@ OBS-0005041,ENC-000382,PAT-31176,2023-03-27 12:32:00,INFLAM,normalized inflammat
 OBS-0005042,ENC-000382,PAT-31176,2023-03-27 12:32:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0005043,ENC-000383,PAT-31129,2021-12-14 09:27:00,RPULSE,resting pulse,83.1,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005044,ENC-000383,PAT-31129,2021-12-14 09:27:30,APICAL,apical cardiac rate,100.8,,bpm,50–110,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
-OBS-0005045,ENC-000383,PAT-31129,2021-12-14 09:28:00,PPULSE,peripheral pulse rate,98.8,,bpm,50–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-MED-1005
+OBS-0005045,ENC-000383,PAT-31129,2021-12-14 09:28:00,PPULSE,peripheral pulse rate,98.8,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005046,ENC-000383,PAT-31129,2021-12-14 09:28:30,O2SAT,peripheral oxygen saturation,96.4,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005047,ENC-000383,PAT-31129,2021-12-14 09:29:00,THORVIB,thoracic vibration index,38.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005048,ENC-000383,PAT-31129,2021-12-14 09:29:30,THORPEAK,thoracic secondary peak index,23.8,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
@@ -5164,12 +5164,12 @@ OBS-0005162,ENC-000392,PAT-31116,2023-01-30 10:27:00,RPULSE,resting pulse,81.5,,
 OBS-0005163,ENC-000392,PAT-31116,2023-01-30 10:27:30,APICAL,apical cardiac rate,75.4,,bpm,50–110,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005164,ENC-000392,PAT-31116,2023-01-30 10:28:00,PPULSE,peripheral pulse rate,78.6,,bpm,50–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005165,ENC-000392,PAT-31116,2023-01-30 10:28:30,CARDOUT,estimated cardiac output,5.06,,l/min,3.5–8.0,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
-OBS-0005166,ENC-000392,PAT-31116,2023-01-30 10:29:00,O2SAT,peripheral oxygen saturation,96.3,,%,94–100,Within_Expected_Range,DEV-003,acceptable,LIC-VLN-MED-1005
+OBS-0005166,ENC-000392,PAT-31116,2023-01-30 10:29:00,O2SAT,peripheral oxygen saturation,96.3,,%,94–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005167,ENC-000392,PAT-31116,2023-01-30 10:29:30,THORVIB,thoracic vibration index,29.6,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005168,ENC-000392,PAT-31116,2023-01-30 10:30:00,THORPEAK,thoracic secondary peak index,17.7,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005169,ENC-000392,PAT-31116,2023-01-30 10:30:30,LATSWAY,lateral sway index,74.6,,index,0–100,review,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005170,ENC-000392,PAT-31116,2023-01-30 10:31:00,BALANCE,balance score,50.0,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
-OBS-0005171,ENC-000392,PAT-31116,2023-01-30 10:31:30,MOBILITY,mobility score,100.0,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-003,acceptable,LIC-VLN-MED-1005
+OBS-0005171,ENC-000392,PAT-31116,2023-01-30 10:31:30,MOBILITY,mobility score,100.0,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005172,ENC-000392,PAT-31116,2023-01-30 10:32:00,COGNITIVE,cognitive score,99.4,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005173,ENC-000392,PAT-31116,2023-01-30 10:32:30,INFLAM,normalized inflammation marker,0.233,,index,0–1.5,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1005
 OBS-0005174,ENC-000392,PAT-31116,2023-01-30 10:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-003,acceptable,LIC-VLN-MED-1005
@@ -5450,7 +5450,7 @@ OBS-0005448,ENC-000413,PAT-31155,2022-02-10 12:31:30,MOBILITY,mobility score,95.
 OBS-0005449,ENC-000413,PAT-31155,2022-02-10 12:32:00,COGNITIVE,cognitive score,84.8,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005450,ENC-000413,PAT-31155,2022-02-10 12:32:30,INFLAM,normalized inflammation marker,0.611,,index,0–1.5,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0005451,ENC-000413,PAT-31155,2022-02-10 12:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-009,acceptable,LIC-VLN-MED-1005
-OBS-0005452,ENC-000414,PAT-31155,2022-09-21 13:27:00,RPULSE,resting pulse,75.4,,bpm,50–100,WITHIN_EXPECTED_RANGE,DEV-001,acceptable,LIC-VLN-MED-1003
+OBS-0005452,ENC-000414,PAT-31155,2022-09-21 13:27:00,RPULSE,resting pulse,75.4,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1003
 OBS-0005453,ENC-000414,PAT-31155,2022-09-21 13:27:30,APICAL,apical cardiac rate,83.6,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1003
 OBS-0005454,ENC-000414,PAT-31155,2022-09-21 13:28:00,PPULSE,peripheral pulse rate,74.1,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1003
 OBS-0005455,ENC-000414,PAT-31155,2022-09-21 13:28:30,CARDOUT,estimated cardiac output,3.0,,l/min,3.5–8.0,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1003
@@ -5501,7 +5501,7 @@ OBS-0005499,ENC-000417,PAT-31078,2023-05-31 11:30:30,LATSWAY,lateral sway index,
 OBS-0005500,ENC-000417,PAT-31078,2023-05-31 11:31:00,BALANCE,balance score,73.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0005501,ENC-000417,PAT-31078,2023-05-31 11:31:30,BIOAGE,estimated biological age,56.6,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0005502,ENC-000417,PAT-31078,2023-05-31 11:32:00,MOBILITY,mobility score,77.1,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
-OBS-0005503,ENC-000417,PAT-31078,2023-05-31 11:32:30,COGNITIVE,cognitive score,80.4,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-RES-1044
+OBS-0005503,ENC-000417,PAT-31078,2023-05-31 11:32:30,COGNITIVE,cognitive score,80.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0005504,ENC-000417,PAT-31078,2023-05-31 11:33:00,INFLAM,normalized inflammation marker,0.343,,index,0–1.5,within_expected_range,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0005505,ENC-000417,PAT-31078,2023-05-31 11:33:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-009,acceptable,LIC-VLN-RES-1044
 OBS-0005506,ENC-000418,PAT-31078,2024-07-04 12:27:00,RPULSE,resting pulse,63.8,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1003
@@ -5590,7 +5590,7 @@ OBS-0005588,ENC-000424,PAT-31133,2023-04-05 10:30:00,THORPEAK,thoracic secondary
 OBS-0005589,ENC-000424,PAT-31133,2023-04-05 10:30:30,LATSWAY,lateral sway index,94.4,,index,0–100,review,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0005590,ENC-000424,PAT-31133,2023-04-05 10:31:00,BALANCE,balance score,65.4,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0005591,ENC-000424,PAT-31133,2023-04-05 10:31:30,BIOAGE,estimated biological age,44.3,,years,18–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
-OBS-0005592,ENC-000424,PAT-31133,2023-04-05 10:32:00,MOBILITY,mobility score,95.6,,index,0–100,Within_Expected_Range,DEV-001,acceptable,LIC-VLN-RES-1044
+OBS-0005592,ENC-000424,PAT-31133,2023-04-05 10:32:00,MOBILITY,mobility score,95.6,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0005593,ENC-000424,PAT-31133,2023-04-05 10:32:30,COGNITIVE,cognitive score,90.8,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0005594,ENC-000424,PAT-31133,2023-04-05 10:33:00,INFLAM,normalized inflammation marker,0.407,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-RES-1044
 OBS-0005595,ENC-000424,PAT-31133,2023-04-05 10:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-001,acceptable,LIC-VLN-RES-1044
@@ -5623,7 +5623,7 @@ OBS-0005621,ENC-000427,PAT-31133,2025-06-20 13:28:00,PPULSE,peripheral pulse rat
 OBS-0005622,ENC-000427,PAT-31133,2025-06-20 13:28:30,CARDOUT,estimated cardiac output,4.79,,l/min,3.5–8.0,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0005623,ENC-000427,PAT-31133,2025-06-20 13:29:00,O2SAT,peripheral oxygen saturation,97.2,,%,94–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0005624,ENC-000427,PAT-31133,2025-06-20 13:29:30,THORVIB,thoracic vibration index,24.1,,index,0–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
-OBS-0005625,ENC-000427,PAT-31133,2025-06-20 13:30:00,THORPEAK,thoracic secondary peak index,26.7,,index,0–100,Within_Expected_Range,DEV-004,acceptable,LIC-VLN-MED-1006
+OBS-0005625,ENC-000427,PAT-31133,2025-06-20 13:30:00,THORPEAK,thoracic secondary peak index,26.7,,index,0–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0005626,ENC-000427,PAT-31133,2025-06-20 13:30:30,LATSWAY,lateral sway index,86.6,,index,0–100,review,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0005627,ENC-000427,PAT-31133,2025-06-20 13:31:00,BALANCE,balance score,69.9,,index,0–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0005628,ENC-000427,PAT-31133,2025-06-20 13:31:30,MOBILITY,mobility score,83.2,,index,0–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
@@ -5637,14 +5637,14 @@ OBS-0005635,ENC-000428,PAT-31097,2018-08-28 09:29:00,O2SAT,peripheral oxygen sat
 OBS-0005636,ENC-000428,PAT-31097,2018-08-28 09:29:30,THORPEAK,thoracic secondary peak index,28.5,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005637,ENC-000428,PAT-31097,2018-08-28 09:30:00,LATSWAY,lateral sway index,20.3,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005638,ENC-000428,PAT-31097,2018-08-28 09:30:30,BALANCE,balance score,55.6,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
-OBS-0005639,ENC-000428,PAT-31097,2018-08-28 09:31:00,BIOAGE,estimated biological age,36.6,,years,18–100,within_expected_range,DEV-001,ACCEPTABLE,LIC-VLN-MED-1006
+OBS-0005639,ENC-000428,PAT-31097,2018-08-28 09:31:00,BIOAGE,estimated biological age,36.6,,years,18–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005640,ENC-000428,PAT-31097,2018-08-28 09:31:30,MOBILITY,mobility score,92.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005641,ENC-000428,PAT-31097,2018-08-28 09:32:00,COGNITIVE,cognitive score,100.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005642,ENC-000428,PAT-31097,2018-08-28 09:32:30,INFLAM,normalized inflammation marker,0.684,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005643,ENC-000428,PAT-31097,2018-08-28 09:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0005644,ENC-000429,PAT-31097,2019-10-01 10:27:00,RPULSE,resting pulse,71.6,,bpm,50–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0005645,ENC-000429,PAT-31097,2019-10-01 10:27:30,APICAL,apical cardiac rate,82.0,,bpm,50–110,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
-OBS-0005646,ENC-000429,PAT-31097,2019-10-01 10:28:00,PPULSE,peripheral pulse rate,86.5,,bpm,50–100,Within_Expected_Range,DEV-002,acceptable,LIC-VLN-MED-1001
+OBS-0005646,ENC-000429,PAT-31097,2019-10-01 10:28:00,PPULSE,peripheral pulse rate,86.5,,bpm,50–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0005647,ENC-000429,PAT-31097,2019-10-01 10:28:30,CARDOUT,estimated cardiac output,6.07,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0005648,ENC-000429,PAT-31097,2019-10-01 10:29:00,O2SAT,peripheral oxygen saturation,96.8,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0005649,ENC-000429,PAT-31097,2019-10-01 10:29:30,THORVIB,thoracic vibration index,19.5,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
@@ -6030,7 +6030,7 @@ OBS-0006028,ENC-000458,PAT-31060,2022-12-28 10:27:30,APICAL,apical cardiac rate,
 OBS-0006029,ENC-000458,PAT-31060,2022-12-28 10:28:00,PPULSE,peripheral pulse rate,81.2,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0006030,ENC-000458,PAT-31060,2022-12-28 10:28:30,CARDOUT,estimated cardiac output,4.65,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0006031,ENC-000458,PAT-31060,2022-12-28 10:29:00,O2SAT,peripheral oxygen saturation,95.4,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
-OBS-0006032,ENC-000458,PAT-31060,2022-12-28 10:29:30,THORVIB,thoracic vibration index,39.7,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-MED-1006
+OBS-0006032,ENC-000458,PAT-31060,2022-12-28 10:29:30,THORVIB,thoracic vibration index,39.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0006033,ENC-000458,PAT-31060,2022-12-28 10:30:00,THORPEAK,thoracic secondary peak index,44.6,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0006034,ENC-000458,PAT-31060,2022-12-28 10:30:30,LATSWAY,lateral sway index,12.2,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
 OBS-0006035,ENC-000458,PAT-31060,2022-12-28 10:31:00,BALANCE,balance score,69.9,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1006
@@ -6109,7 +6109,7 @@ OBS-0006107,ENC-000463,PAT-31208,2022-05-19 11:33:00,OCULAR,ocular tracking inte
 OBS-0006108,ENC-000464,PAT-31201,2017-10-23 09:27:00,RPULSE,resting pulse,73.5,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0006109,ENC-000464,PAT-31201,2017-10-23 09:27:30,APICAL,apical cardiac rate,70.5,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0006110,ENC-000464,PAT-31201,2017-10-23 09:28:00,PPULSE,peripheral pulse rate,70.9,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
-OBS-0006111,ENC-000464,PAT-31201,2017-10-23 09:28:30,CARDOUT,estimated cardiac output,5.45,,l/min,3.5–8.0,WITHIN_EXPECTED_RANGE,DEV-001,acceptable,LIC-VLN-MED-1004
+OBS-0006111,ENC-000464,PAT-31201,2017-10-23 09:28:30,CARDOUT,estimated cardiac output,5.45,,l/min,3.5–8.0,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0006112,ENC-000464,PAT-31201,2017-10-23 09:29:00,O2SAT,peripheral oxygen saturation,96.7,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0006113,ENC-000464,PAT-31201,2017-10-23 09:29:30,THORVIB,thoracic vibration index,21.5,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
 OBS-0006114,ENC-000464,PAT-31201,2017-10-23 09:30:00,THORPEAK,thoracic secondary peak index,35.8,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1004
@@ -6297,7 +6297,7 @@ OBS-0006295,ENC-000477,PAT-31138,2023-02-07 13:32:30,COGNITIVE,cognitive score,9
 OBS-0006296,ENC-000477,PAT-31138,2023-02-07 13:33:00,INFLAM,normalized inflammation marker,0.036,,index,0–1.5,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1006
 OBS-0006297,ENC-000477,PAT-31138,2023-02-07 13:33:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-007,acceptable,LIC-VLN-MED-1006
 OBS-0006298,ENC-000478,PAT-31052,2019-08-20 09:27:00,RPULSE,resting pulse,71.8,,bpm,50–100,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1016
-OBS-0006299,ENC-000478,PAT-31052,2019-08-20 09:27:30,APICAL,apical cardiac rate,67.5,,bpm,50–110,within_expected_range,DEV-004,Acceptable,LIC-VLN-RES-1016
+OBS-0006299,ENC-000478,PAT-31052,2019-08-20 09:27:30,APICAL,apical cardiac rate,67.5,,bpm,50–110,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1016
 OBS-0006300,ENC-000478,PAT-31052,2019-08-20 09:28:00,PPULSE,peripheral pulse rate,75.8,,bpm,50–100,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1016
 OBS-0006301,ENC-000478,PAT-31052,2019-08-20 09:28:30,CARDOUT,estimated cardiac output,4.91,,l/min,3.5–8.0,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1016
 OBS-0006302,ENC-000478,PAT-31052,2019-08-20 09:29:00,O2SAT,peripheral oxygen saturation,96.2,,%,94–100,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1016
@@ -6868,7 +6868,7 @@ OBS-0006866,ENC-000520,PAT-31062,2021-09-12 09:31:30,BIOAGE,estimated biological
 OBS-0006867,ENC-000520,PAT-31062,2021-09-12 09:32:00,MOBILITY,mobility score,83.9,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0006868,ENC-000520,PAT-31062,2021-09-12 09:32:30,COGNITIVE,cognitive score,88.0,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0006869,ENC-000520,PAT-31062,2021-09-12 09:33:00,INFLAM,normalized inflammation marker,0.249,,index,0–1.5,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
-OBS-0006870,ENC-000520,PAT-31062,2021-09-12 09:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-005,Acceptable,LIC-VLN-MED-1005
+OBS-0006870,ENC-000520,PAT-31062,2021-09-12 09:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0006871,ENC-000521,PAT-31062,2022-12-18 10:27:00,RPULSE,resting pulse,85.0,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0006872,ENC-000521,PAT-31062,2022-12-18 10:27:30,APICAL,apical cardiac rate,58.7,,bpm,50–110,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0006873,ENC-000521,PAT-31062,2022-12-18 10:28:00,PPULSE,peripheral pulse rate,55.1,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
@@ -6975,7 +6975,7 @@ OBS-0006973,ENC-000528,PAT-31161,2024-03-08 11:30:00,THORPEAK,thoracic secondary
 OBS-0006974,ENC-000528,PAT-31161,2024-03-08 11:30:30,LATSWAY,lateral sway index,25.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0006975,ENC-000528,PAT-31161,2024-03-08 11:31:00,BALANCE,balance score,64.2,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0006976,ENC-000528,PAT-31161,2024-03-08 11:31:30,MOBILITY,mobility score,82.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
-OBS-0006977,ENC-000528,PAT-31161,2024-03-08 11:32:00,COGNITIVE,cognitive score,80.1,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-MED-1005
+OBS-0006977,ENC-000528,PAT-31161,2024-03-08 11:32:00,COGNITIVE,cognitive score,80.1,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0006978,ENC-000528,PAT-31161,2024-03-08 11:32:30,INFLAM,normalized inflammation marker,0.379,,index,0–1.5,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0006979,ENC-000528,PAT-31161,2024-03-08 11:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-009,acceptable,LIC-VLN-MED-1005
 OBS-0006980,ENC-000529,PAT-31214,2017-04-07 09:27:00,RPULSE,resting pulse,63.4,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1002
@@ -7078,7 +7078,7 @@ OBS-0007076,ENC-000536,PAT-31061,2021-08-29 12:27:00,RPULSE,resting pulse,75.7,,
 OBS-0007077,ENC-000536,PAT-31061,2021-08-29 12:27:30,APICAL,apical cardiac rate,75.1,,bpm,50–110,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0007078,ENC-000536,PAT-31061,2021-08-29 12:28:00,PPULSE,peripheral pulse rate,73.2,,bpm,50–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0007079,ENC-000536,PAT-31061,2021-08-29 12:28:30,CARDOUT,estimated cardiac output,5.87,,l/min,3.5–8.0,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
-OBS-0007080,ENC-000536,PAT-31061,2021-08-29 12:29:00,O2SAT,peripheral oxygen saturation,98.7,,%,94–100,Within_Expected_Range,DEV-003,acceptable,LIC-VLN-MED-1001
+OBS-0007080,ENC-000536,PAT-31061,2021-08-29 12:29:00,O2SAT,peripheral oxygen saturation,98.7,,%,94–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0007081,ENC-000536,PAT-31061,2021-08-29 12:29:30,THORVIB,thoracic vibration index,29.9,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0007082,ENC-000536,PAT-31061,2021-08-29 12:30:00,THORPEAK,thoracic secondary peak index,15.6,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0007083,ENC-000536,PAT-31061,2021-08-29 12:30:30,BALANCE,balance score,87.1,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
@@ -7147,7 +7147,7 @@ OBS-0007145,ENC-000541,PAT-31200,2018-01-05 09:28:00,PPULSE,peripheral pulse rat
 OBS-0007146,ENC-000541,PAT-31200,2018-01-05 09:28:30,CARDOUT,estimated cardiac output,5.58,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0007147,ENC-000541,PAT-31200,2018-01-05 09:29:00,O2SAT,peripheral oxygen saturation,97.7,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0007148,ENC-000541,PAT-31200,2018-01-05 09:29:30,THORVIB,thoracic vibration index,46.4,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
-OBS-0007149,ENC-000541,PAT-31200,2018-01-05 09:30:00,THORPEAK,thoracic secondary peak index,12.0,,index,0–100,Within_Expected_Range,DEV-002,acceptable,LIC-VLN-MED-1001
+OBS-0007149,ENC-000541,PAT-31200,2018-01-05 09:30:00,THORPEAK,thoracic secondary peak index,12.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0007150,ENC-000541,PAT-31200,2018-01-05 09:30:30,LATSWAY,lateral sway index,12.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0007151,ENC-000541,PAT-31200,2018-01-05 09:31:00,BALANCE,balance score,83.2,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
 OBS-0007152,ENC-000541,PAT-31200,2018-01-05 09:31:30,BIOAGE,estimated biological age,36.1,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1001
@@ -7353,7 +7353,7 @@ OBS-0007351,ENC-000556,PAT-31053,2019-12-09 10:29:30,THORVIB,thoracic vibration 
 OBS-0007352,ENC-000556,PAT-31053,2019-12-09 10:30:00,THORPEAK,thoracic secondary peak index,25.1,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
 OBS-0007353,ENC-000556,PAT-31053,2019-12-09 10:30:30,LATSWAY,lateral sway index,15.3,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
 OBS-0007354,ENC-000556,PAT-31053,2019-12-09 10:31:00,BALANCE,balance score,74.1,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
-OBS-0007355,ENC-000556,PAT-31053,2019-12-09 10:31:30,BIOAGE,estimated biological age,62.9,,years,18–100,within_expected_range,DEV-006,ACCEPTABLE,LIC-VLN-MED-1004
+OBS-0007355,ENC-000556,PAT-31053,2019-12-09 10:31:30,BIOAGE,estimated biological age,62.9,,years,18–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
 OBS-0007356,ENC-000556,PAT-31053,2019-12-09 10:32:00,MOBILITY,mobility score,75.6,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
 OBS-0007357,ENC-000556,PAT-31053,2019-12-09 10:32:30,COGNITIVE,cognitive score,85.1,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
 OBS-0007358,ENC-000556,PAT-31053,2019-12-09 10:33:00,INFLAM,normalized inflammation marker,0.62,,index,0–1.5,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1004
@@ -7577,7 +7577,7 @@ OBS-0007575,ENC-000573,PAT-31188,2020-06-14 10:28:30,CARDOUT,estimated cardiac o
 OBS-0007576,ENC-000573,PAT-31188,2020-06-14 10:29:00,O2SAT,peripheral oxygen saturation,97.1,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0007577,ENC-000573,PAT-31188,2020-06-14 10:29:30,THORVIB,thoracic vibration index,41.6,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0007578,ENC-000573,PAT-31188,2020-06-14 10:30:00,THORPEAK,thoracic secondary peak index,0.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
-OBS-0007579,ENC-000573,PAT-31188,2020-06-14 10:30:30,LATSWAY,lateral sway index,26.4,,index,0–100,within_expected_range,DEV-001,ACCEPTABLE,LIC-VLN-MED-1006
+OBS-0007579,ENC-000573,PAT-31188,2020-06-14 10:30:30,LATSWAY,lateral sway index,26.4,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0007580,ENC-000573,PAT-31188,2020-06-14 10:31:00,BALANCE,balance score,94.9,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0007581,ENC-000573,PAT-31188,2020-06-14 10:31:30,BIOAGE,estimated biological age,48.1,,years,18–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
 OBS-0007582,ENC-000573,PAT-31188,2020-06-14 10:32:00,MOBILITY,mobility score,63.3,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1006
@@ -7669,7 +7669,7 @@ OBS-0007667,ENC-000580,PAT-31145,2021-01-25 09:28:00,PPULSE,peripheral pulse rat
 OBS-0007668,ENC-000580,PAT-31145,2021-01-25 09:28:30,CARDOUT,estimated cardiac output,4.22,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0007669,ENC-000580,PAT-31145,2021-01-25 09:29:00,O2SAT,peripheral oxygen saturation,95.8,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0007670,ENC-000580,PAT-31145,2021-01-25 09:29:30,THORVIB,thoracic vibration index,24.2,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
-OBS-0007671,ENC-000580,PAT-31145,2021-01-25 09:30:00,THORPEAK,thoracic secondary peak index,24.0,,index,0–100,Within_Expected_Range,DEV-002,acceptable,LIC-VLN-MED-1003
+OBS-0007671,ENC-000580,PAT-31145,2021-01-25 09:30:00,THORPEAK,thoracic secondary peak index,24.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0007672,ENC-000580,PAT-31145,2021-01-25 09:30:30,LATSWAY,lateral sway index,9.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0007673,ENC-000580,PAT-31145,2021-01-25 09:31:00,BALANCE,balance score,89.6,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0007674,ENC-000580,PAT-31145,2021-01-25 09:31:30,MOBILITY,mobility score,84.1,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
@@ -7995,7 +7995,7 @@ OBS-0007993,ENC-000604,PAT-31234,2021-11-10 12:31:30,BIOAGE,estimated biological
 OBS-0007994,ENC-000604,PAT-31234,2021-11-10 12:32:00,MOBILITY,mobility score,85.3,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0007995,ENC-000604,PAT-31234,2021-11-10 12:32:30,COGNITIVE,cognitive score,68.8,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0007996,ENC-000604,PAT-31234,2021-11-10 12:33:00,INFLAM,normalized inflammation marker,0.535,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
-OBS-0007997,ENC-000604,PAT-31234,2021-11-10 12:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,Recorded,DEV-001,acceptable,LIC-VLN-MED-1002
+OBS-0007997,ENC-000604,PAT-31234,2021-11-10 12:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0007998,ENC-000605,PAT-31123,2020-12-17 09:27:00,RPULSE,resting pulse,64.5,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0007999,ENC-000605,PAT-31123,2020-12-17 09:27:30,APICAL,apical cardiac rate,76.9,,bpm,50–110,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0008000,ENC-000605,PAT-31123,2020-12-17 09:28:00,PPULSE,peripheral pulse rate,73.4,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
@@ -8369,7 +8369,7 @@ OBS-0008367,ENC-000632,PAT-31005,2023-06-02 11:30:30,LATSWAY,lateral sway index,
 OBS-0008368,ENC-000632,PAT-31005,2023-06-02 11:31:00,BALANCE,balance score,79.9,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-RES-1044
 OBS-0008369,ENC-000632,PAT-31005,2023-06-02 11:31:30,BIOAGE,estimated biological age,48.9,,years,18–100,within_expected_range,DEV-007,acceptable,LIC-VLN-RES-1044
 OBS-0008370,ENC-000632,PAT-31005,2023-06-02 11:32:00,MOBILITY,mobility score,82.1,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-RES-1044
-OBS-0008371,ENC-000632,PAT-31005,2023-06-02 11:32:30,COGNITIVE,cognitive score,88.8,,index,0–100,Within_Expected_Range,DEV-007,acceptable,LIC-VLN-RES-1044
+OBS-0008371,ENC-000632,PAT-31005,2023-06-02 11:32:30,COGNITIVE,cognitive score,88.8,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-RES-1044
 OBS-0008372,ENC-000632,PAT-31005,2023-06-02 11:33:00,INFLAM,normalized inflammation marker,0.237,,index,0–1.5,within_expected_range,DEV-007,acceptable,LIC-VLN-RES-1044
 OBS-0008373,ENC-000632,PAT-31005,2023-06-02 11:33:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-007,acceptable,LIC-VLN-RES-1044
 OBS-0008374,ENC-000633,PAT-31005,2024-01-16 12:27:00,RPULSE,resting pulse,68.0,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1005
@@ -8433,7 +8433,7 @@ OBS-0008431,ENC-000637,PAT-31224,2022-02-14 12:29:30,THORVIB,thoracic vibration 
 OBS-0008432,ENC-000637,PAT-31224,2022-02-14 12:30:00,THORPEAK,thoracic secondary peak index,0.0,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0008433,ENC-000637,PAT-31224,2022-02-14 12:30:30,LATSWAY,lateral sway index,40.3,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0008434,ENC-000637,PAT-31224,2022-02-14 12:31:00,BIOAGE,estimated biological age,71.4,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
-OBS-0008435,ENC-000637,PAT-31224,2022-02-14 12:31:30,MOBILITY,mobility score,78.4,,index,0–100,Within_Expected_Range,DEV-009,acceptable,LIC-VLN-MED-1004
+OBS-0008435,ENC-000637,PAT-31224,2022-02-14 12:31:30,MOBILITY,mobility score,78.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0008436,ENC-000637,PAT-31224,2022-02-14 12:32:00,COGNITIVE,cognitive score,66.7,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0008437,ENC-000637,PAT-31224,2022-02-14 12:32:30,INFLAM,normalized inflammation marker,0.62,,index,0–1.5,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0008438,ENC-000637,PAT-31224,2022-02-14 12:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-009,acceptable,LIC-VLN-MED-1004
@@ -8521,7 +8521,7 @@ OBS-0008519,ENC-000644,PAT-31104,2020-11-28 11:27:00,RPULSE,resting pulse,71.8,,
 OBS-0008520,ENC-000644,PAT-31104,2020-11-28 11:27:30,APICAL,apical cardiac rate,87.1,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0008521,ENC-000644,PAT-31104,2020-11-28 11:28:00,PPULSE,peripheral pulse rate,76.7,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0008522,ENC-000644,PAT-31104,2020-11-28 11:28:30,CARDOUT,estimated cardiac output,4.96,,l/min,3.5–8.0,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
-OBS-0008523,ENC-000644,PAT-31104,2020-11-28 11:29:00,O2SAT,peripheral oxygen saturation,97.6,,%,94–100,Within_Expected_Range,DEV-001,acceptable,LIC-VLN-MED-1001
+OBS-0008523,ENC-000644,PAT-31104,2020-11-28 11:29:00,O2SAT,peripheral oxygen saturation,97.6,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0008524,ENC-000644,PAT-31104,2020-11-28 11:29:30,THORVIB,thoracic vibration index,22.8,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0008525,ENC-000644,PAT-31104,2020-11-28 11:30:00,THORPEAK,thoracic secondary peak index,0.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0008526,ENC-000644,PAT-31104,2020-11-28 11:30:30,LATSWAY,lateral sway index,35.0,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
@@ -8602,7 +8602,7 @@ OBS-0008600,ENC-000650,PAT-31212,2021-12-21 10:29:00,O2SAT,peripheral oxygen sat
 OBS-0008601,ENC-000650,PAT-31212,2021-12-21 10:29:30,THORVIB,thoracic vibration index,0.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0008602,ENC-000650,PAT-31212,2021-12-21 10:30:00,THORPEAK,thoracic secondary peak index,7.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0008603,ENC-000650,PAT-31212,2021-12-21 10:30:30,LATSWAY,lateral sway index,31.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
-OBS-0008604,ENC-000650,PAT-31212,2021-12-21 10:31:00,BALANCE,balance score,71.1,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-002,acceptable,LIC-VLN-MED-1006
+OBS-0008604,ENC-000650,PAT-31212,2021-12-21 10:31:00,BALANCE,balance score,71.1,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0008605,ENC-000650,PAT-31212,2021-12-21 10:31:30,BIOAGE,estimated biological age,22.2,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0008606,ENC-000650,PAT-31212,2021-12-21 10:32:00,MOBILITY,mobility score,82.5,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0008607,ENC-000650,PAT-31212,2021-12-21 10:32:30,COGNITIVE,cognitive score,96.3,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
@@ -8661,7 +8661,7 @@ OBS-0008659,ENC-000654,PAT-31002,2022-02-11 10:32:00,COGNITIVE,cognitive score,8
 OBS-0008660,ENC-000654,PAT-31002,2022-02-11 10:32:30,INFLAM,normalized inflammation marker,0.376,,index,0–1.5,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0008661,ENC-000654,PAT-31002,2022-02-11 10:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-003,acceptable,LIC-VLN-RES-1016
 OBS-0008662,ENC-000655,PAT-31002,2022-10-20 11:27:00,RPULSE,resting pulse,73.4,,bpm,50–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
-OBS-0008663,ENC-000655,PAT-31002,2022-10-20 11:27:30,APICAL,apical cardiac rate,91.4,,bpm,50–110,WITHIN_EXPECTED_RANGE,DEV-004,acceptable,LIC-VLN-MED-1006
+OBS-0008663,ENC-000655,PAT-31002,2022-10-20 11:27:30,APICAL,apical cardiac rate,91.4,,bpm,50–110,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0008664,ENC-000655,PAT-31002,2022-10-20 11:28:00,PPULSE,peripheral pulse rate,80.4,,bpm,50–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0008665,ENC-000655,PAT-31002,2022-10-20 11:28:30,CARDOUT,estimated cardiac output,6.24,,l/min,3.5–8.0,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
 OBS-0008666,ENC-000655,PAT-31002,2022-10-20 11:29:00,O2SAT,peripheral oxygen saturation,96.8,,%,94–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1006
@@ -9001,7 +9001,7 @@ OBS-0008999,ENC-000681,PAT-31227,2021-12-06 12:27:30,APICAL,apical cardiac rate,
 OBS-0009000,ENC-000681,PAT-31227,2021-12-06 12:28:00,PPULSE,peripheral pulse rate,71.6,,bpm,50–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0009001,ENC-000681,PAT-31227,2021-12-06 12:28:30,CARDOUT,estimated cardiac output,5.47,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0009002,ENC-000681,PAT-31227,2021-12-06 12:29:00,O2SAT,peripheral oxygen saturation,97.7,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
-OBS-0009003,ENC-000681,PAT-31227,2021-12-06 12:29:30,THORVIB,thoracic vibration index,18.2,,index,0–100,within_expected_range,DEV-002,ACCEPTABLE,LIC-VLN-MED-1005
+OBS-0009003,ENC-000681,PAT-31227,2021-12-06 12:29:30,THORVIB,thoracic vibration index,18.2,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0009004,ENC-000681,PAT-31227,2021-12-06 12:30:00,THORPEAK,thoracic secondary peak index,11.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0009005,ENC-000681,PAT-31227,2021-12-06 12:30:30,LATSWAY,lateral sway index,31.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
 OBS-0009006,ENC-000681,PAT-31227,2021-12-06 12:31:00,BALANCE,balance score,65.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1005
@@ -9243,7 +9243,7 @@ OBS-0009241,ENC-000699,PAT-31059,2025-06-20 13:29:30,THORPEAK,thoracic secondary
 OBS-0009242,ENC-000699,PAT-31059,2025-06-20 13:30:00,LATSWAY,lateral sway index,34.7,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
 OBS-0009243,ENC-000699,PAT-31059,2025-06-20 13:30:30,BALANCE,balance score,64.1,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
 OBS-0009244,ENC-000699,PAT-31059,2025-06-20 13:31:00,BIOAGE,estimated biological age,66.3,,years,18–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
-OBS-0009245,ENC-000699,PAT-31059,2025-06-20 13:31:30,MOBILITY,mobility score,66.0,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-007,acceptable,LIC-VLN-MED-1002
+OBS-0009245,ENC-000699,PAT-31059,2025-06-20 13:31:30,MOBILITY,mobility score,66.0,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
 OBS-0009246,ENC-000699,PAT-31059,2025-06-20 13:32:00,COGNITIVE,cognitive score,86.3,,index,0–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
 OBS-0009247,ENC-000699,PAT-31059,2025-06-20 13:32:30,INFLAM,normalized inflammation marker,0.635,,index,0–1.5,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1002
 OBS-0009248,ENC-000700,PAT-31015,2020-07-23 09:27:00,RPULSE,resting pulse,83.3,,bpm,50–100,within_expected_range,DEV-004,acceptable,LIC-VLN-MED-1005
@@ -9684,7 +9684,7 @@ OBS-0009682,ENC-000733,PAT-31066,2023-06-17 12:28:00,PPULSE,peripheral pulse rat
 OBS-0009683,ENC-000733,PAT-31066,2023-06-17 12:28:30,CARDOUT,estimated cardiac output,5.12,,l/min,3.5–8.0,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
 OBS-0009684,ENC-000733,PAT-31066,2023-06-17 12:29:00,O2SAT,peripheral oxygen saturation,97.6,,%,94–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
 OBS-0009685,ENC-000733,PAT-31066,2023-06-17 12:29:30,THORPEAK,thoracic secondary peak index,40.9,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
-OBS-0009686,ENC-000733,PAT-31066,2023-06-17 12:30:00,LATSWAY,lateral sway index,18.7,,index,0–100,Within_Expected_Range,DEV-005,acceptable,LIC-VLN-MED-1003
+OBS-0009686,ENC-000733,PAT-31066,2023-06-17 12:30:00,LATSWAY,lateral sway index,18.7,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
 OBS-0009687,ENC-000733,PAT-31066,2023-06-17 12:30:30,BALANCE,balance score,100.0,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
 OBS-0009688,ENC-000733,PAT-31066,2023-06-17 12:31:00,BIOAGE,estimated biological age,25.4,,years,18–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
 OBS-0009689,ENC-000733,PAT-31066,2023-06-17 12:31:30,MOBILITY,mobility score,99.5,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1003
@@ -9712,7 +9712,7 @@ OBS-0009710,ENC-000735,PAT-31209,2017-07-30 09:29:00,THORVIB,thoracic vibration 
 OBS-0009711,ENC-000735,PAT-31209,2017-07-30 09:29:30,THORPEAK,thoracic secondary peak index,55.2,,index,0–100,review,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0009712,ENC-000735,PAT-31209,2017-07-30 09:30:00,LATSWAY,lateral sway index,45.5,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0009713,ENC-000735,PAT-31209,2017-07-30 09:30:30,BALANCE,balance score,79.6,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
-OBS-0009714,ENC-000735,PAT-31209,2017-07-30 09:31:00,BIOAGE,estimated biological age,37.8,,years,18–100,Within_Expected_Range,DEV-003,acceptable,LIC-VLN-MED-1001
+OBS-0009714,ENC-000735,PAT-31209,2017-07-30 09:31:00,BIOAGE,estimated biological age,37.8,,years,18–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0009715,ENC-000735,PAT-31209,2017-07-30 09:31:30,MOBILITY,mobility score,87.1,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0009716,ENC-000735,PAT-31209,2017-07-30 09:32:00,COGNITIVE,cognitive score,75.3,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
 OBS-0009717,ENC-000735,PAT-31209,2017-07-30 09:32:30,INFLAM,normalized inflammation marker,0.477,,index,0–1.5,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1001
@@ -9798,7 +9798,7 @@ OBS-0009796,ENC-000741,PAT-31217,2019-01-04 10:32:00,MOBILITY,mobility score,89.
 OBS-0009797,ENC-000741,PAT-31217,2019-01-04 10:32:30,INFLAM,normalized inflammation marker,0.531,,index,0–1.5,within_expected_range,DEV-005,acceptable,LIC-VLN-RES-1016
 OBS-0009798,ENC-000741,PAT-31217,2019-01-04 10:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-005,acceptable,LIC-VLN-RES-1016
 OBS-0009799,ENC-000742,PAT-31217,2019-03-22 11:27:00,RPULSE,resting pulse,77.6,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1001
-OBS-0009800,ENC-000742,PAT-31217,2019-03-22 11:27:30,APICAL,apical cardiac rate,57.4,,bpm,50–110,within_expected_range,DEV-006,ACCEPTABLE,LIC-VLN-MED-1001
+OBS-0009800,ENC-000742,PAT-31217,2019-03-22 11:27:30,APICAL,apical cardiac rate,57.4,,bpm,50–110,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1001
 OBS-0009801,ENC-000742,PAT-31217,2019-03-22 11:28:00,PPULSE,peripheral pulse rate,66.3,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1001
 OBS-0009802,ENC-000742,PAT-31217,2019-03-22 11:28:30,CARDOUT,estimated cardiac output,6.55,,l/min,3.5–8.0,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1001
 OBS-0009803,ENC-000742,PAT-31217,2019-03-22 11:29:00,O2SAT,peripheral oxygen saturation,98.1,,%,94–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1001
@@ -9932,7 +9932,7 @@ OBS-0009930,ENC-000751,PAT-31043,2021-03-22 11:33:30,OCULAR,ocular tracking inte
 OBS-0009931,ENC-000752,PAT-31043,2022-04-29 12:27:00,RPULSE,resting pulse,68.7,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0009932,ENC-000752,PAT-31043,2022-04-29 12:27:30,APICAL,apical cardiac rate,57.2,,bpm,50–110,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0009933,ENC-000752,PAT-31043,2022-04-29 12:28:00,PPULSE,peripheral pulse rate,56.8,,bpm,50–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
-OBS-0009934,ENC-000752,PAT-31043,2022-04-29 12:28:30,CARDOUT,estimated cardiac output,6.5,,l/min,3.5–8.0,Within_Expected_Range,DEV-009,acceptable,LIC-VLN-MED-1003
+OBS-0009934,ENC-000752,PAT-31043,2022-04-29 12:28:30,CARDOUT,estimated cardiac output,6.5,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0009935,ENC-000752,PAT-31043,2022-04-29 12:29:00,O2SAT,peripheral oxygen saturation,97.1,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0009936,ENC-000752,PAT-31043,2022-04-29 12:29:30,THORVIB,thoracic vibration index,33.5,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0009937,ENC-000752,PAT-31043,2022-04-29 12:30:00,THORPEAK,thoracic secondary peak index,6.2,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
@@ -10282,7 +10282,7 @@ OBS-0010280,ENC-000778,PAT-31011,2019-08-22 11:28:30,CARDOUT,estimated cardiac o
 OBS-0010281,ENC-000778,PAT-31011,2019-08-22 11:29:00,O2SAT,peripheral oxygen saturation,94.2,,%,94–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0010282,ENC-000778,PAT-31011,2019-08-22 11:29:30,THORVIB,thoracic vibration index,22.2,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0010283,ENC-000778,PAT-31011,2019-08-22 11:30:00,THORPEAK,thoracic secondary peak index,40.7,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
-OBS-0010284,ENC-000778,PAT-31011,2019-08-22 11:30:30,LATSWAY,lateral sway index,10.7,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-006,acceptable,LIC-VLN-MED-1003
+OBS-0010284,ENC-000778,PAT-31011,2019-08-22 11:30:30,LATSWAY,lateral sway index,10.7,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0010285,ENC-000778,PAT-31011,2019-08-22 11:31:00,BIOAGE,estimated biological age,63.9,,years,18–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0010286,ENC-000778,PAT-31011,2019-08-22 11:31:30,MOBILITY,mobility score,91.2,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0010287,ENC-000778,PAT-31011,2019-08-22 11:32:00,COGNITIVE,cognitive score,75.7,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
@@ -10356,7 +10356,7 @@ OBS-0010354,ENC-000783,PAT-31180,2023-10-17 11:32:30,INFLAM,normalized inflammat
 OBS-0010355,ENC-000783,PAT-31180,2023-10-17 11:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-007,acceptable,LIC-VLN-MED-1001
 OBS-0010356,ENC-000784,PAT-31194,2021-08-17 09:27:00,RPULSE,resting pulse,84.3,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010357,ENC-000784,PAT-31194,2021-08-17 09:27:30,APICAL,apical cardiac rate,55.3,,bpm,50–110,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
-OBS-0010358,ENC-000784,PAT-31194,2021-08-17 09:28:00,PPULSE,peripheral pulse rate,61.5,,bpm,50–100,WITHIN_EXPECTED_RANGE,DEV-006,acceptable,LIC-VLN-MED-1006
+OBS-0010358,ENC-000784,PAT-31194,2021-08-17 09:28:00,PPULSE,peripheral pulse rate,61.5,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010359,ENC-000784,PAT-31194,2021-08-17 09:28:30,CARDOUT,estimated cardiac output,4.99,,l/min,3.5–8.0,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010360,ENC-000784,PAT-31194,2021-08-17 09:29:00,O2SAT,peripheral oxygen saturation,97.8,,%,94–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010361,ENC-000784,PAT-31194,2021-08-17 09:29:30,THORVIB,thoracic vibration index,2.6,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
@@ -10518,7 +10518,7 @@ OBS-0010516,ENC-000796,PAT-31127,2022-11-09 11:29:30,THORVIB,thoracic vibration 
 OBS-0010517,ENC-000796,PAT-31127,2022-11-09 11:30:00,THORPEAK,thoracic secondary peak index,10.1,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0010518,ENC-000796,PAT-31127,2022-11-09 11:30:30,LATSWAY,lateral sway index,19.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0010519,ENC-000796,PAT-31127,2022-11-09 11:31:00,BALANCE,balance score,71.4,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
-OBS-0010520,ENC-000796,PAT-31127,2022-11-09 11:31:30,BIOAGE,estimated biological age,33.5,,years,18–100,Within_Expected_Range,DEV-002,acceptable,LIC-VLN-MED-1006
+OBS-0010520,ENC-000796,PAT-31127,2022-11-09 11:31:30,BIOAGE,estimated biological age,33.5,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0010521,ENC-000796,PAT-31127,2022-11-09 11:32:00,MOBILITY,mobility score,86.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0010522,ENC-000796,PAT-31127,2022-11-09 11:32:30,COGNITIVE,cognitive score,96.2,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
 OBS-0010523,ENC-000796,PAT-31127,2022-11-09 11:33:00,INFLAM,normalized inflammation marker,0.531,,index,0–1.5,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1006
@@ -10544,7 +10544,7 @@ OBS-0010542,ENC-000798,PAT-31154,2022-10-27 10:29:00,O2SAT,peripheral oxygen sat
 OBS-0010543,ENC-000798,PAT-31154,2022-10-27 10:29:30,THORVIB,thoracic vibration index,40.5,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0010544,ENC-000798,PAT-31154,2022-10-27 10:30:00,THORPEAK,thoracic secondary peak index,33.6,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0010545,ENC-000798,PAT-31154,2022-10-27 10:30:30,LATSWAY,lateral sway index,29.3,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
-OBS-0010546,ENC-000798,PAT-31154,2022-10-27 10:31:00,BALANCE,balance score,74.4,,index,0–100,within_expected_range,DEV-002,Acceptable,LIC-VLN-MED-1003
+OBS-0010546,ENC-000798,PAT-31154,2022-10-27 10:31:00,BALANCE,balance score,74.4,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0010547,ENC-000798,PAT-31154,2022-10-27 10:31:30,BIOAGE,estimated biological age,40.9,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0010548,ENC-000798,PAT-31154,2022-10-27 10:32:00,COGNITIVE,cognitive score,92.7,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1003
 OBS-0010549,ENC-000799,PAT-31154,2023-10-24 11:27:00,RPULSE,resting pulse,60.4,,bpm,50–100,within_expected_range,DEV-003,acceptable,LIC-VLN-RES-1016
@@ -10712,7 +10712,7 @@ OBS-0010710,ENC-000811,PAT-31181,2022-12-22 11:28:30,CARDOUT,estimated cardiac o
 OBS-0010711,ENC-000811,PAT-31181,2022-12-22 11:29:00,O2SAT,peripheral oxygen saturation,95.1,,%,94–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010712,ENC-000811,PAT-31181,2022-12-22 11:29:30,THORPEAK,thoracic secondary peak index,41.7,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010713,ENC-000811,PAT-31181,2022-12-22 11:30:00,LATSWAY,lateral sway index,75.1,,index,0–100,review,DEV-006,acceptable,LIC-VLN-MED-1006
-OBS-0010714,ENC-000811,PAT-31181,2022-12-22 11:30:30,BALANCE,balance score,50.2,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-006,acceptable,LIC-VLN-MED-1006
+OBS-0010714,ENC-000811,PAT-31181,2022-12-22 11:30:30,BALANCE,balance score,50.2,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010715,ENC-000811,PAT-31181,2022-12-22 11:31:00,BIOAGE,estimated biological age,51.9,,years,18–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010716,ENC-000811,PAT-31181,2022-12-22 11:31:30,MOBILITY,mobility score,52.5,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0010717,ENC-000811,PAT-31181,2022-12-22 11:32:00,COGNITIVE,cognitive score,86.1,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
@@ -10732,7 +10732,7 @@ OBS-0010730,ENC-000812,PAT-31181,2024-02-03 12:32:00,COGNITIVE,cognitive score,8
 OBS-0010731,ENC-000812,PAT-31181,2024-02-03 12:32:30,INFLAM,normalized inflammation marker,0.444,,index,0–1.5,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1005
 OBS-0010732,ENC-000812,PAT-31181,2024-02-03 12:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-007,acceptable,LIC-VLN-MED-1005
 OBS-0010733,ENC-000813,PAT-31181,2025-06-20 13:27:00,RPULSE,resting pulse,56.5,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
-OBS-0010734,ENC-000813,PAT-31181,2025-06-20 13:27:30,APICAL,apical cardiac rate,78.5,,bpm,50–110,Within_Expected_Range,DEV-008,acceptable,LIC-VLN-RES-1016
+OBS-0010734,ENC-000813,PAT-31181,2025-06-20 13:27:30,APICAL,apical cardiac rate,78.5,,bpm,50–110,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0010735,ENC-000813,PAT-31181,2025-06-20 13:28:00,PPULSE,peripheral pulse rate,83.0,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0010736,ENC-000813,PAT-31181,2025-06-20 13:28:30,CARDOUT,estimated cardiac output,5.65,,l/min,3.5–8.0,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0010737,ENC-000813,PAT-31181,2025-06-20 13:29:00,O2SAT,peripheral oxygen saturation,95.7,,%,94–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
@@ -10895,7 +10895,7 @@ OBS-0010893,ENC-000825,PAT-31023,2022-07-06 11:28:00,PPULSE,peripheral pulse rat
 OBS-0010894,ENC-000825,PAT-31023,2022-07-06 11:28:30,CARDOUT,estimated cardiac output,3.15,,l/min,3.5–8.0,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0010895,ENC-000825,PAT-31023,2022-07-06 11:29:00,O2SAT,peripheral oxygen saturation,95.3,,%,94–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0010896,ENC-000825,PAT-31023,2022-07-06 11:29:30,THORVIB,thoracic vibration index,32.4,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
-OBS-0010897,ENC-000825,PAT-31023,2022-07-06 11:30:00,THORPEAK,thoracic secondary peak index,27.1,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-009,acceptable,LIC-VLN-MED-1003
+OBS-0010897,ENC-000825,PAT-31023,2022-07-06 11:30:00,THORPEAK,thoracic secondary peak index,27.1,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0010898,ENC-000825,PAT-31023,2022-07-06 11:30:30,LATSWAY,lateral sway index,47.3,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0010899,ENC-000825,PAT-31023,2022-07-06 11:31:00,BALANCE,balance score,65.3,,index,0–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
 OBS-0010900,ENC-000825,PAT-31023,2022-07-06 11:31:30,BIOAGE,estimated biological age,66.9,,years,18–100,within_expected_range,DEV-009,acceptable,LIC-VLN-MED-1003
@@ -11059,7 +11059,7 @@ OBS-0011057,ENC-000837,PAT-31019,2025-01-04 12:30:30,LATSWAY,lateral sway index,
 OBS-0011058,ENC-000837,PAT-31019,2025-01-04 12:31:00,BALANCE,balance score,100.0,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1006
 OBS-0011059,ENC-000837,PAT-31019,2025-01-04 12:31:30,MOBILITY,mobility score,90.1,,index,0–100,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1006
 OBS-0011060,ENC-000837,PAT-31019,2025-01-04 12:32:00,INFLAM,normalized inflammation marker,0.377,,index,0–1.5,within_expected_range,DEV-003,acceptable,LIC-VLN-MED-1006
-OBS-0011061,ENC-000837,PAT-31019,2025-01-04 12:32:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,RECORDED,DEV-003,acceptable,LIC-VLN-MED-1006
+OBS-0011061,ENC-000837,PAT-31019,2025-01-04 12:32:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-003,acceptable,LIC-VLN-MED-1006
 OBS-0011062,ENC-000838,PAT-31050,2020-11-25 09:27:00,RPULSE,resting pulse,81.8,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0011063,ENC-000838,PAT-31050,2020-11-25 09:27:30,APICAL,apical cardiac rate,65.1,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
 OBS-0011064,ENC-000838,PAT-31050,2020-11-25 09:28:00,PPULSE,peripheral pulse rate,62.2,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1001
@@ -11184,7 +11184,7 @@ OBS-0011182,ENC-000847,PAT-31108,2022-10-25 13:27:30,APICAL,apical cardiac rate,
 OBS-0011183,ENC-000847,PAT-31108,2022-10-25 13:28:00,PPULSE,peripheral pulse rate,76.1,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0011184,ENC-000847,PAT-31108,2022-10-25 13:28:30,CARDOUT,estimated cardiac output,4.24,,l/min,3.5–8.0,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0011185,ENC-000847,PAT-31108,2022-10-25 13:29:00,O2SAT,peripheral oxygen saturation,95.3,,%,94–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
-OBS-0011186,ENC-000847,PAT-31108,2022-10-25 13:29:30,THORVIB,thoracic vibration index,27.0,,index,0–100,WITHIN_EXPECTED_RANGE,DEV-006,acceptable,LIC-VLN-MED-1003
+OBS-0011186,ENC-000847,PAT-31108,2022-10-25 13:29:30,THORVIB,thoracic vibration index,27.0,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0011187,ENC-000847,PAT-31108,2022-10-25 13:30:00,THORPEAK,thoracic secondary peak index,4.2,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0011188,ENC-000847,PAT-31108,2022-10-25 13:30:30,LATSWAY,lateral sway index,16.2,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
 OBS-0011189,ENC-000847,PAT-31108,2022-10-25 13:31:00,BALANCE,balance score,77.0,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1003
@@ -11273,7 +11273,7 @@ OBS-0011271,ENC-000853,PAT-31207,2023-03-09 11:31:00,BALANCE,balance score,64.5,
 OBS-0011272,ENC-000853,PAT-31207,2023-03-09 11:31:30,BIOAGE,estimated biological age,52.1,,years,18–100,within_expected_range,DEV-006,acceptable,LIC-VLN-RES-1044
 OBS-0011273,ENC-000853,PAT-31207,2023-03-09 11:32:00,MOBILITY,mobility score,82.0,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-RES-1044
 OBS-0011274,ENC-000853,PAT-31207,2023-03-09 11:32:30,COGNITIVE,cognitive score,76.5,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-RES-1044
-OBS-0011275,ENC-000853,PAT-31207,2023-03-09 11:33:00,INFLAM,normalized inflammation marker,0.505,,index,0–1.5,within_expected_range,DEV-006,Acceptable,LIC-VLN-RES-1044
+OBS-0011275,ENC-000853,PAT-31207,2023-03-09 11:33:00,INFLAM,normalized inflammation marker,0.505,,index,0–1.5,within_expected_range,DEV-006,acceptable,LIC-VLN-RES-1044
 OBS-0011276,ENC-000853,PAT-31207,2023-03-09 11:33:30,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-006,acceptable,LIC-VLN-RES-1044
 OBS-0011277,ENC-000854,PAT-31230,2021-05-16 09:27:00,RPULSE,resting pulse,86.0,,bpm,50–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1006
 OBS-0011278,ENC-000854,PAT-31230,2021-05-16 09:27:30,APICAL,apical cardiac rate,62.4,,bpm,50–110,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1006
@@ -11325,7 +11325,7 @@ OBS-0011323,ENC-000857,PAT-31230,2024-10-07 12:30:00,THORPEAK,thoracic secondary
 OBS-0011324,ENC-000857,PAT-31230,2024-10-07 12:30:30,LATSWAY,lateral sway index,36.6,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0011325,ENC-000857,PAT-31230,2024-10-07 12:31:00,BALANCE,balance score,56.4,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0011326,ENC-000857,PAT-31230,2024-10-07 12:31:30,BIOAGE,estimated biological age,73.3,,years,18–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
-OBS-0011327,ENC-000857,PAT-31230,2024-10-07 12:32:00,COGNITIVE,cognitive score,75.3,,index,0–100,Within_Expected_Range,DEV-008,acceptable,LIC-VLN-MED-1004
+OBS-0011327,ENC-000857,PAT-31230,2024-10-07 12:32:00,COGNITIVE,cognitive score,75.3,,index,0–100,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0011328,ENC-000857,PAT-31230,2024-10-07 12:32:30,INFLAM,normalized inflammation marker,0.505,,index,0–1.5,within_expected_range,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0011329,ENC-000857,PAT-31230,2024-10-07 12:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-008,acceptable,LIC-VLN-MED-1004
 OBS-0011330,ENC-000858,PAT-31197,2019-02-17 09:27:00,RPULSE,resting pulse,61.1,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1005
@@ -11433,7 +11433,7 @@ OBS-0011431,ENC-000865,PAT-31055,2019-04-27 11:32:30,COGNITIVE,cognitive score,7
 OBS-0011432,ENC-000865,PAT-31055,2019-04-27 11:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-009,acceptable,LIC-VLN-MED-1004
 OBS-0011433,ENC-000866,PAT-31055,2019-11-10 12:27:00,RPULSE,resting pulse,69.3,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0011434,ENC-000866,PAT-31055,2019-11-10 12:27:30,APICAL,apical cardiac rate,62.2,,bpm,50–110,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
-OBS-0011435,ENC-000866,PAT-31055,2019-11-10 12:28:00,PPULSE,peripheral pulse rate,62.4,,bpm,50–100,within_expected_range,DEV-001,ACCEPTABLE,LIC-VLN-MED-1002
+OBS-0011435,ENC-000866,PAT-31055,2019-11-10 12:28:00,PPULSE,peripheral pulse rate,62.4,,bpm,50–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0011436,ENC-000866,PAT-31055,2019-11-10 12:28:30,CARDOUT,estimated cardiac output,6.67,,l/min,3.5–8.0,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0011437,ENC-000866,PAT-31055,2019-11-10 12:29:00,O2SAT,peripheral oxygen saturation,97.8,,%,94–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
 OBS-0011438,ENC-000866,PAT-31055,2019-11-10 12:29:30,THORVIB,thoracic vibration index,54.4,,index,0–100,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1002
@@ -11743,7 +11743,7 @@ OBS-0011741,ENC-000889,PAT-31237,2021-01-09 11:30:30,BALANCE,balance score,52.2,
 OBS-0011742,ENC-000889,PAT-31237,2021-01-09 11:31:00,BIOAGE,estimated biological age,67.0,,years,18–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0011743,ENC-000889,PAT-31237,2021-01-09 11:31:30,MOBILITY,mobility score,85.3,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0011744,ENC-000889,PAT-31237,2021-01-09 11:32:00,COGNITIVE,cognitive score,87.8,,index,0–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
-OBS-0011745,ENC-000889,PAT-31237,2021-01-09 11:32:30,INFLAM,normalized inflammation marker,0.682,,index,0–1.5,within_expected_range,DEV-006,ACCEPTABLE,LIC-VLN-MED-1006
+OBS-0011745,ENC-000889,PAT-31237,2021-01-09 11:32:30,INFLAM,normalized inflammation marker,0.682,,index,0–1.5,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0011746,ENC-000889,PAT-31237,2021-01-09 11:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-006,acceptable,LIC-VLN-MED-1006
 OBS-0011747,ENC-000890,PAT-31237,2021-07-12 12:27:00,RPULSE,resting pulse,82.5,,bpm,50–100,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1005
 OBS-0011748,ENC-000890,PAT-31237,2021-07-12 12:27:30,APICAL,apical cardiac rate,73.9,,bpm,50–110,within_expected_range,DEV-007,acceptable,LIC-VLN-MED-1005
@@ -11784,7 +11784,7 @@ OBS-0011782,ENC-000892,PAT-31112,2019-06-20 09:31:00,BIOAGE,estimated biological
 OBS-0011783,ENC-000892,PAT-31112,2019-06-20 09:31:30,MOBILITY,mobility score,89.2,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0011784,ENC-000892,PAT-31112,2019-06-20 09:32:00,COGNITIVE,cognitive score,83.2,,index,0–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0011785,ENC-000892,PAT-31112,2019-06-20 09:32:30,INFLAM,normalized inflammation marker,0.631,,index,0–1.5,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1005
-OBS-0011786,ENC-000892,PAT-31112,2019-06-20 09:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,RECORDED,DEV-005,acceptable,LIC-VLN-MED-1005
+OBS-0011786,ENC-000892,PAT-31112,2019-06-20 09:33:00,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-005,acceptable,LIC-VLN-MED-1005
 OBS-0011787,ENC-000893,PAT-31112,2020-08-03 10:27:00,RPULSE,resting pulse,62.6,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1002
 OBS-0011788,ENC-000893,PAT-31112,2020-08-03 10:27:30,APICAL,apical cardiac rate,67.1,,bpm,50–110,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1002
 OBS-0011789,ENC-000893,PAT-31112,2020-08-03 10:28:00,PPULSE,peripheral pulse rate,68.7,,bpm,50–100,within_expected_range,DEV-006,acceptable,LIC-VLN-MED-1002
@@ -11929,7 +11929,7 @@ OBS-0011927,ENC-000903,PAT-31203,2023-11-02 12:31:30,MOBILITY,mobility score,95.
 OBS-0011928,ENC-000903,PAT-31203,2023-11-02 12:32:00,INFLAM,normalized inflammation marker,0.453,,index,0–1.5,within_expected_range,DEV-001,acceptable,LIC-VLN-MED-1005
 OBS-0011929,ENC-000903,PAT-31203,2023-11-02 12:32:30,OCULAR,ocular tracking interpretation,,inconclusive,,normal; atypical; inconclusive,recorded,DEV-001,acceptable,LIC-VLN-MED-1005
 OBS-0011930,ENC-000904,PAT-31090,2018-07-31 09:27:00,RPULSE,resting pulse,68.4,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
-OBS-0011931,ENC-000904,PAT-31090,2018-07-31 09:27:30,APICAL,apical cardiac rate,69.0,,bpm,50–110,WITHIN_EXPECTED_RANGE,DEV-008,acceptable,LIC-VLN-RES-1016
+OBS-0011931,ENC-000904,PAT-31090,2018-07-31 09:27:30,APICAL,apical cardiac rate,69.0,,bpm,50–110,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0011932,ENC-000904,PAT-31090,2018-07-31 09:28:00,PPULSE,peripheral pulse rate,65.2,,bpm,50–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0011933,ENC-000904,PAT-31090,2018-07-31 09:28:30,CARDOUT,estimated cardiac output,5.31,,l/min,3.5–8.0,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
 OBS-0011934,ENC-000904,PAT-31090,2018-07-31 09:29:00,O2SAT,peripheral oxygen saturation,95.0,,%,94–100,within_expected_range,DEV-008,acceptable,LIC-VLN-RES-1016
@@ -12151,7 +12151,7 @@ OBS-0012149,ENC-000920,PAT-31199,2020-06-01 10:31:30,MOBILITY,mobility score,84.
 OBS-0012150,ENC-000920,PAT-31199,2020-06-01 10:32:00,COGNITIVE,cognitive score,82.5,,index,0–100,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1044
 OBS-0012151,ENC-000920,PAT-31199,2020-06-01 10:32:30,INFLAM,normalized inflammation marker,0.514,,index,0–1.5,within_expected_range,DEV-004,acceptable,LIC-VLN-RES-1044
 OBS-0012152,ENC-000920,PAT-31199,2020-06-01 10:33:00,OCULAR,ocular tracking interpretation,,normal,,normal; atypical; inconclusive,recorded,DEV-004,acceptable,LIC-VLN-RES-1044
-OBS-0012153,ENC-000921,PAT-31199,2021-06-22 11:27:00,RPULSE,resting pulse,74.4,,bpm,50–100,within_expected_range,DEV-005,Acceptable,LIC-VLN-MED-1001
+OBS-0012153,ENC-000921,PAT-31199,2021-06-22 11:27:00,RPULSE,resting pulse,74.4,,bpm,50–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1001
 OBS-0012154,ENC-000921,PAT-31199,2021-06-22 11:27:30,APICAL,apical cardiac rate,75.4,,bpm,50–110,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1001
 OBS-0012155,ENC-000921,PAT-31199,2021-06-22 11:28:00,PPULSE,peripheral pulse rate,64.9,,bpm,50–100,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1001
 OBS-0012156,ENC-000921,PAT-31199,2021-06-22 11:28:30,CARDOUT,estimated cardiac output,6.36,,l/min,3.5–8.0,within_expected_range,DEV-005,acceptable,LIC-VLN-MED-1001
@@ -12961,7 +12961,7 @@ OBS-0012959,ENC-000983,PAT-31178,2022-12-07 11:28:00,PPULSE,peripheral pulse rat
 OBS-0012960,ENC-000983,PAT-31178,2022-12-07 11:28:30,CARDOUT,estimated cardiac output,5.02,,l/min,3.5–8.0,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
 OBS-0012961,ENC-000983,PAT-31178,2022-12-07 11:29:00,O2SAT,peripheral oxygen saturation,95.7,,%,94–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
 OBS-0012962,ENC-000983,PAT-31178,2022-12-07 11:29:30,THORVIB,thoracic vibration index,35.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
-OBS-0012963,ENC-000983,PAT-31178,2022-12-07 11:30:00,THORPEAK,thoracic secondary peak index,20.8,,index,0–100,Within_Expected_Range,DEV-002,acceptable,LIC-VLN-MED-1004
+OBS-0012963,ENC-000983,PAT-31178,2022-12-07 11:30:00,THORPEAK,thoracic secondary peak index,20.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
 OBS-0012964,ENC-000983,PAT-31178,2022-12-07 11:30:30,LATSWAY,lateral sway index,28.0,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
 OBS-0012965,ENC-000983,PAT-31178,2022-12-07 11:31:00,BALANCE,balance score,67.8,,index,0–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
 OBS-0012966,ENC-000983,PAT-31178,2022-12-07 11:31:30,BIOAGE,estimated biological age,53.0,,years,18–100,within_expected_range,DEV-002,acceptable,LIC-VLN-MED-1004
@@ -13587,7 +13587,7 @@ OBS-0013585,ENC-000055,PAT-31037,2022-12-01 13:54:00,VARIGHT,right visual acuity
 OBS-0013586,ENC-000055,PAT-31037,2022-12-01 13:54:30,CAMMATCH,camera match confidence,68.0,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0013587,ENC-000055,PAT-31037,2022-12-01 13:55:00,THERMQUAL,thermal detection quality,88.1,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0013588,ENC-000055,PAT-31037,2022-12-01 13:55:30,IDCONS,identity consistency score,66.7,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
-OBS-0013589,ENC-000055,PAT-31037,2022-12-01 13:56:00,CVRISK,cardiovascular risk score,6.4,,index,0–100,recorded,,ACCEPTABLE,LIC-VLN-RES-1016
+OBS-0013589,ENC-000055,PAT-31037,2022-12-01 13:56:00,CVRISK,cardiovascular risk score,6.4,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0013590,ENC-000055,PAT-31037,2022-12-01 13:56:30,AGECOND,age-related condition count,1.0,,count,0–10,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0013591,ENC-000055,PAT-31037,2022-12-01 13:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0013592,ENC-000055,PAT-31037,2022-12-01 13:57:30,MUSC,musculoskeletal condition,,none,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-RES-1016
@@ -14257,8 +14257,8 @@ OBS-0014255,ENC-000209,PAT-31169,2021-09-21 12:56:00,CVRISK,cardiovascular risk 
 OBS-0014256,ENC-000209,PAT-31169,2021-09-21 12:56:30,AGECOND,age-related condition count,1.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0014257,ENC-000209,PAT-31169,2021-09-21 12:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0014258,ENC-000209,PAT-31169,2021-09-21 12:57:30,MUSC,musculoskeletal condition,,mild,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1006
-OBS-0014259,ENC-000209,PAT-31169,2021-09-21 12:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,Acceptable,LIC-VLN-MED-1006
-OBS-0014260,ENC-000209,PAT-31169,2021-09-21 12:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,RECORDED,,acceptable,LIC-VLN-MED-1006
+OBS-0014259,ENC-000209,PAT-31169,2021-09-21 12:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1006
+OBS-0014260,ENC-000209,PAT-31169,2021-09-21 12:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0014261,ENC-000212,PAT-31146,2023-01-30 11:50:00,SYSBP,systolic blood pressure,119.1,,mmhg,90–180,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0014262,ENC-000212,PAT-31146,2023-01-30 11:50:30,DIABP,diastolic blood pressure,79.6,,mmhg,50–110,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0014263,ENC-000212,PAT-31146,2023-01-30 11:51:00,STROKEVOL,estimated stroke volume,73.1,,ml,45–120,recorded,,acceptable,LIC-VLN-MED-1006
@@ -14840,10 +14840,10 @@ OBS-0014838,ENC-000354,PAT-31082,2022-08-11 12:50:30,DIABP,diastolic blood press
 OBS-0014839,ENC-000354,PAT-31082,2022-08-11 12:51:00,STROKEVOL,estimated stroke volume,61.9,,ml,45–120,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014840,ENC-000354,PAT-31082,2022-08-11 12:51:30,WALKSPD,walking speed,1.33,,m/s,.5–1.8,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014841,ENC-000354,PAT-31082,2022-08-11 12:52:00,GAITSYM,gait symmetry index,80.9,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1044
-OBS-0014842,ENC-000354,PAT-31082,2022-08-11 12:52:30,LEFTEYE,left-eye deviation,-6.3,,degrees,-20–20,RECORDED,,acceptable,LIC-VLN-RES-1044
+OBS-0014842,ENC-000354,PAT-31082,2022-08-11 12:52:30,LEFTEYE,left-eye deviation,-6.3,,degrees,-20–20,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014843,ENC-000354,PAT-31082,2022-08-11 12:53:00,RIGHTEYE,right-eye deviation,2.0,,degrees,-20–20,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014844,ENC-000354,PAT-31082,2022-08-11 12:53:30,VALEFT,left visual acuity,0.92,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-RES-1044
-OBS-0014845,ENC-000354,PAT-31082,2022-08-11 12:54:00,VARIGHT,right visual acuity,1.0,,ratio,.4–1.2,RECORDED,,acceptable,LIC-VLN-RES-1044
+OBS-0014845,ENC-000354,PAT-31082,2022-08-11 12:54:00,VARIGHT,right visual acuity,1.0,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014846,ENC-000354,PAT-31082,2022-08-11 12:54:30,CAMMATCH,camera match confidence,100.0,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014847,ENC-000354,PAT-31082,2022-08-11 12:55:00,THERMQUAL,thermal detection quality,86.1,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1044
 OBS-0014848,ENC-000354,PAT-31082,2022-08-11 12:55:30,IDCONS,identity consistency score,97.5,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1044
@@ -14976,7 +14976,7 @@ OBS-0014974,ENC-000382,PAT-31176,2023-03-27 12:55:30,IDCONS,identity consistency
 OBS-0014975,ENC-000382,PAT-31176,2023-03-27 12:56:00,CVRISK,cardiovascular risk score,37.2,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1003
 OBS-0014976,ENC-000382,PAT-31176,2023-03-27 12:56:30,AGECOND,age-related condition count,1.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1003
 OBS-0014977,ENC-000382,PAT-31176,2023-03-27 12:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-MED-1003
-OBS-0014978,ENC-000382,PAT-31176,2023-03-27 12:57:30,MUSC,musculoskeletal condition,,mild,,none; mild; moderate; severe,recorded,,Acceptable,LIC-VLN-MED-1003
+OBS-0014978,ENC-000382,PAT-31176,2023-03-27 12:57:30,MUSC,musculoskeletal condition,,mild,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1003
 OBS-0014979,ENC-000382,PAT-31176,2023-03-27 12:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1003
 OBS-0014980,ENC-000382,PAT-31176,2023-03-27 12:58:30,NEURO,neurological deficit,,mild,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1003
 OBS-0014981,ENC-000385,PAT-31129,2024-01-25 11:50:00,SYSBP,systolic blood pressure,116.3,,mmhg,90–180,recorded,,acceptable,LIC-VLN-RES-1044
@@ -15246,7 +15246,7 @@ OBS-0015244,ENC-000448,PAT-31122,2024-08-03 13:55:30,IDCONS,identity consistency
 OBS-0015245,ENC-000448,PAT-31122,2024-08-03 13:56:00,CVRISK,cardiovascular risk score,28.0,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1004
 OBS-0015246,ENC-000448,PAT-31122,2024-08-03 13:56:30,AGECOND,age-related condition count,2.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1004
 OBS-0015247,ENC-000448,PAT-31122,2024-08-03 13:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-MED-1004
-OBS-0015248,ENC-000448,PAT-31122,2024-08-03 13:57:30,MUSC,musculoskeletal condition,,none,,none; mild; moderate; severe,recorded,,ACCEPTABLE,LIC-VLN-MED-1004
+OBS-0015248,ENC-000448,PAT-31122,2024-08-03 13:57:30,MUSC,musculoskeletal condition,,none,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1004
 OBS-0015249,ENC-000448,PAT-31122,2024-08-03 13:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1004
 OBS-0015250,ENC-000448,PAT-31122,2024-08-03 13:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1004
 OBS-0015251,ENC-000452,PAT-31134,2022-08-22 12:50:00,SYSBP,systolic blood pressure,120.5,,mmhg,90–180,recorded,,acceptable,LIC-VLN-MED-1001
@@ -15335,7 +15335,7 @@ OBS-0015333,ENC-000468,PAT-31201,2021-08-08 13:55:00,THERMQUAL,thermal detection
 OBS-0015334,ENC-000468,PAT-31201,2021-08-08 13:55:30,IDCONS,identity consistency score,97.2,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0015335,ENC-000468,PAT-31201,2021-08-08 13:56:00,CVRISK,cardiovascular risk score,38.2,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0015336,ENC-000468,PAT-31201,2021-08-08 13:56:30,AGECOND,age-related condition count,1.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1006
-OBS-0015337,ENC-000468,PAT-31201,2021-08-08 13:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,Recorded,,acceptable,LIC-VLN-MED-1006
+OBS-0015337,ENC-000468,PAT-31201,2021-08-08 13:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0015338,ENC-000468,PAT-31201,2021-08-08 13:57:30,MUSC,musculoskeletal condition,,none,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0015339,ENC-000468,PAT-31201,2021-08-08 13:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0015340,ENC-000468,PAT-31201,2021-08-08 13:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1006
@@ -16092,7 +16092,7 @@ OBS-0016090,ENC-000641,PAT-31080,2023-09-25 12:55:30,IDCONS,identity consistency
 OBS-0016091,ENC-000641,PAT-31080,2023-09-25 12:56:00,CVRISK,cardiovascular risk score,38.9,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016092,ENC-000641,PAT-31080,2023-09-25 12:56:30,AGECOND,age-related condition count,0.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016093,ENC-000641,PAT-31080,2023-09-25 12:57:00,VESTIB,vestibular test result,,normal,,normal; abnormal; inconclusive; not tested,recorded,,acceptable,LIC-VLN-MED-1006
-OBS-0016094,ENC-000641,PAT-31080,2023-09-25 12:57:30,MUSC,musculoskeletal condition,,mild,,none; mild; moderate; severe,RECORDED,,acceptable,LIC-VLN-MED-1006
+OBS-0016094,ENC-000641,PAT-31080,2023-09-25 12:57:30,MUSC,musculoskeletal condition,,mild,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016095,ENC-000641,PAT-31080,2023-09-25 12:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016096,ENC-000641,PAT-31080,2023-09-25 12:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016097,ENC-000645,PAT-31104,2022-02-01 12:50:00,SYSBP,systolic blood pressure,118.0,,mmhg,90–180,recorded,,acceptable,LIC-VLN-MED-1006
@@ -16910,7 +16910,7 @@ OBS-0016908,ENC-000833,PAT-31027,2022-12-22 14:50:30,DIABP,diastolic blood press
 OBS-0016909,ENC-000833,PAT-31027,2022-12-22 14:51:00,STROKEVOL,estimated stroke volume,58.3,,ml,45–120,recorded,,acceptable,LIC-VLN-MED-1005
 OBS-0016910,ENC-000833,PAT-31027,2022-12-22 14:51:30,WALKSPD,walking speed,0.92,,m/s,.5–1.8,recorded,,acceptable,LIC-VLN-MED-1005
 OBS-0016911,ENC-000833,PAT-31027,2022-12-22 14:52:00,GAITSYM,gait symmetry index,82.0,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1005
-OBS-0016912,ENC-000833,PAT-31027,2022-12-22 14:52:30,LEFTEYE,left-eye deviation,2.5,,degrees,-20–20,Recorded,,acceptable,LIC-VLN-MED-1005
+OBS-0016912,ENC-000833,PAT-31027,2022-12-22 14:52:30,LEFTEYE,left-eye deviation,2.5,,degrees,-20–20,recorded,,acceptable,LIC-VLN-MED-1005
 OBS-0016913,ENC-000833,PAT-31027,2022-12-22 14:53:00,RIGHTEYE,right-eye deviation,-0.3,,degrees,-20–20,recorded,,acceptable,LIC-VLN-MED-1005
 OBS-0016914,ENC-000833,PAT-31027,2022-12-22 14:53:30,VALEFT,left visual acuity,0.94,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-MED-1005
 OBS-0016915,ENC-000833,PAT-31027,2022-12-22 14:54:00,VARIGHT,right visual acuity,0.92,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-MED-1005
@@ -16941,7 +16941,7 @@ OBS-0016939,ENC-000837,PAT-31019,2025-01-04 12:57:00,VESTIB,vestibular test resu
 OBS-0016940,ENC-000837,PAT-31019,2025-01-04 12:57:30,MUSC,musculoskeletal condition,,none,,none; mild; moderate; severe,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016941,ENC-000837,PAT-31019,2025-01-04 12:58:00,BINOCOORD,binocular coordination,,normal,,normal; reduced; atypical; not tested,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0016942,ENC-000837,PAT-31019,2025-01-04 12:58:30,NEURO,neurological deficit,,none,,none; mild; moderate; severe; unknown,recorded,,acceptable,LIC-VLN-MED-1006
-OBS-0016943,ENC-000842,PAT-31050,2025-06-20 13:50:00,SYSBP,systolic blood pressure,116.8,,mmhg,90–180,recorded,,ACCEPTABLE,LIC-VLN-MED-1001
+OBS-0016943,ENC-000842,PAT-31050,2025-06-20 13:50:00,SYSBP,systolic blood pressure,116.8,,mmhg,90–180,recorded,,acceptable,LIC-VLN-MED-1001
 OBS-0016944,ENC-000842,PAT-31050,2025-06-20 13:50:30,DIABP,diastolic blood pressure,76.0,,mmhg,50–110,recorded,,acceptable,LIC-VLN-MED-1001
 OBS-0016945,ENC-000842,PAT-31050,2025-06-20 13:51:00,STROKEVOL,estimated stroke volume,92.6,,ml,45–120,recorded,,acceptable,LIC-VLN-MED-1001
 OBS-0016946,ENC-000842,PAT-31050,2025-06-20 13:51:30,WALKSPD,walking speed,1.42,,m/s,.5–1.8,recorded,,acceptable,LIC-VLN-MED-1001
@@ -17436,7 +17436,7 @@ OBS-0017434,ENC-000950,PAT-31009,2023-10-21 12:52:30,LEFTEYE,left-eye deviation,
 OBS-0017435,ENC-000950,PAT-31009,2023-10-21 12:53:00,RIGHTEYE,right-eye deviation,9.7,,degrees,-20–20,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0017436,ENC-000950,PAT-31009,2023-10-21 12:53:30,VALEFT,left visual acuity,1.05,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0017437,ENC-000950,PAT-31009,2023-10-21 12:54:00,VARIGHT,right visual acuity,0.92,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-RES-1016
-OBS-0017438,ENC-000950,PAT-31009,2023-10-21 12:54:30,CAMMATCH,camera match confidence,90.8,,index,0–100,RECORDED,,acceptable,LIC-VLN-RES-1016
+OBS-0017438,ENC-000950,PAT-31009,2023-10-21 12:54:30,CAMMATCH,camera match confidence,90.8,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0017439,ENC-000950,PAT-31009,2023-10-21 12:55:00,THERMQUAL,thermal detection quality,89.4,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0017440,ENC-000950,PAT-31009,2023-10-21 12:55:30,IDCONS,identity consistency score,100.0,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
 OBS-0017441,ENC-000950,PAT-31009,2023-10-21 12:56:00,CVRISK,cardiovascular risk score,26.7,,index,0–100,recorded,,acceptable,LIC-VLN-RES-1016
@@ -17599,7 +17599,7 @@ OBS-0017597,ENC-000988,PAT-31229,2021-09-30 12:53:00,RIGHTEYE,right-eye deviatio
 OBS-0017598,ENC-000988,PAT-31229,2021-09-30 12:53:30,VALEFT,left visual acuity,0.92,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0017599,ENC-000988,PAT-31229,2021-09-30 12:54:00,VARIGHT,right visual acuity,1.04,,ratio,.4–1.2,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0017600,ENC-000988,PAT-31229,2021-09-30 12:54:30,CAMMATCH,camera match confidence,94.9,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
-OBS-0017601,ENC-000988,PAT-31229,2021-09-30 12:55:00,THERMQUAL,thermal detection quality,89.9,,index,0–100,Recorded,,acceptable,LIC-VLN-MED-1006
+OBS-0017601,ENC-000988,PAT-31229,2021-09-30 12:55:00,THERMQUAL,thermal detection quality,89.9,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0017602,ENC-000988,PAT-31229,2021-09-30 12:55:30,IDCONS,identity consistency score,89.2,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0017603,ENC-000988,PAT-31229,2021-09-30 12:56:00,CVRISK,cardiovascular risk score,47.5,,index,0–100,recorded,,acceptable,LIC-VLN-MED-1006
 OBS-0017604,ENC-000988,PAT-31229,2021-09-30 12:56:30,AGECOND,age-related condition count,0.0,,count,0–10,recorded,,acceptable,LIC-VLN-MED-1006
