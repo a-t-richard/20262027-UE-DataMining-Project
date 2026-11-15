@@ -19,8 +19,15 @@ Pour cela, le fichier `Base_notebook_to_complete.ipynb` est mis à votre disposi
 
 Pensez à bien y préciser:
 
-* Le nom de votre groupe
-* La liste des membres
+* Nom du groupe : 12
+* Membres du groupe :
+    * idil MAHAMOUD GUEDI
+    * André da Conceição
+    * Ali Chabaka 
+    * Aissam Eddine Boukhelkhal
+    * Lucas Duchamp (pseudo github : Mascass)
+    * RATOANDROMANANA Iavosoa Miella
+
 
 Vous serez avant tout évalué sur votre méthode, donc soyez précis, détaillé
 et rigoureux dans vos descriptions.
@@ -33,9 +40,43 @@ Si vous souhaitez tout de même l’utiliser, cela doit être justifié et docum
 Dans le dossier `data/`, vous trouverez les ensembles des jeux de données suivants:
 
 - `data/public_records/` — jeux de données issus d’institutions administratives publiques,
+    - cleaning : ok 
+    - normaliser :
+    - correlation :
+    - clustering :
+    - anomalies :
+    - apriori :
+    - graphe / communautées :
+    - Process Mining :
 - `data/health/` — jeux de données médicales issus de cliniques et d’hôpitaux,
+    - cleaning :
+    - normaliser :
+    - correlation :
+    - clustering :
+    - anomalies :
+    - apriori :
+    - graphe / communautées :
+    - Process Mining :
 - `data/ecology/` — jeux de données issus de recherches environnementales,
+    - cleaning : ok
+    - normaliser : ok
+    - correlation : pas push
+    - clustering: sur 1 dataset (orchard_surveys)
+    - anomalies : ok
+    - apriori : pas pertinent
+    - graphe / communautées : pas de graphes évidents à former, reviendrait à faire un clustering (lié les sites selon leur similaritées)
+    - Process Mining : pas pertinent
+    - Texte Mining : pas besoin, trop peu de données (6 textes) et anomalie trouvée en lisant
 - `data/logistics/` — jeux de données issus de groupes et d’entreprises privées.
+    - cleaning : 1/2
+    - normaliser :
+    - correlation :
+    - clustering(PCA,T-SNE) : 1/2
+    - clustering(k-means, db-scan) : 1/2
+    - anomalies : 1/2
+    - apriori (des colonnes qui vont ensemble) : 1/2
+    - graphe / communautées : 1/2
+    - Process Mining : 1/2
 
 Le fichier `data/data_dictionary.csv` détaille les caractéristiques des variables présentes dans chaque jeu de données.
 
